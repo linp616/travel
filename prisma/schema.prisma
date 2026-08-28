@@ -1,0 +1,97 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Trip {
+  id                String                    @id @default(cuid())
+  fromCity          String
+  toCity            String
+  startDate         String
+  days              Int
+  budget            Float
+  adultCount        Int                       @default(1)
+  childCount        Int                       @default(0)
+  preferences       String
+  roomType          String                    @default("comfort")
+  extraRequirements String?
+  status            String                    @default("generated")
+  createdAt         String
+  updatedAt         String
+  hotels            HotelRecommendation[]
+  transports        TransportRecommendation[]
+  itineraryDays     ItineraryDay[]
+  xhsNotes          XhsNoteSummary[]
+}
+
+model HotelRecommendation {
+  id          String  @id @default(cuid())
+  tripId      String
+  name        String
+  price       Float
+  rating      Float?
+  address     String?
+  source      String
+  sourceLabel String
+  url         String?
+  tag         String?
+  createdAt   String
+  trip        Trip    @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  @@index([tripId])
+}
+
+model TransportRecommendation {
+  id            String  @id @default(cuid())
+  tripId      String
+  origin        String
+  destination   String
+  method        String
+  price         Float
+  duration      Int
+  source        String
+  sourceLabel   String
+  url           String?
+  details       String?
+  routeNumber   String?
+  departureTime String?
+  arrivalTime   String?
+  score         Float?
+  isRecommended Boolean @default(false)
+  isSample      Boolean @default(true)
+  createdAt     String
+  trip          Trip    @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  @@index([tripId])
+}
+
+model ItineraryDay {
+  id          String  @id @default(cuid())
+  tripId      String
+  dayIndex    Int
+  title       String
+  activities  String
+  meals       String?
+  totalCost   Float?
+  commuteInfo String?
+  createdAt   String
+  trip        Trip    @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  @@index([tripId])
+  @@index([dayIndex])
+}
+
+model XhsNoteSummary {
+  id        String @id @default(cuid())
+  tripId    String
+  title     String
+  excerpt   String
+  author    String
+  likes     Int
+  sourceUrl String
+  tags      String
+  createdAt String
+  trip      Trip   @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  @@index([tripId])
+}

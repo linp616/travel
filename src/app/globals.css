@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 26, 26, 26;
+  --background-rgb: 245, 240, 232;
+  --accent-rgb: 201, 168, 124;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@layer components {
+  /* Cinematic Hero Section */
+  .cinematic-hero {
+    @apply relative min-h-screen flex items-center justify-center overflow-hidden;
+    background: linear-gradient(135deg, #f5f0e8 0%, #e8dfd0 100%);
+  }
+
+  .cinematic-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(74, 144, 168, 0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, rgba(201, 168, 124, 0.2) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 80%, rgba(44, 95, 124, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  /* Cinematic Card */
+  .cinematic-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/30 rounded-3xl;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Cinematic Button */
+  .btn-cinematic {
+    @apply px-10 py-4 rounded-full font-semibold text-base transition-all duration-500;
+    background: linear-gradient(135deg, #4a90a8 0%, #2c5f7c 100%);
+    box-shadow: 0 10px 30px rgba(74, 144, 168, 0.3);
+    color: white;
+  }
+
+    .btn-cinematic:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(74, 144, 168, 0.4);
+  }
+
+  /* Square Button - 方形按钮 */
+  .btn-square {
+    @apply px-8 py-4 rounded-lg font-semibold text-base transition-all duration-300;
+    background: linear-gradient(135deg, #4a90a8 0%, #2c5f7c 100%);
+    box-shadow: 0 4px 15px rgba(74, 144, 168, 0.25);
+    color: white;
+  }
+
+  .btn-square:hover {
+    box-shadow: 0 4px 15px rgba(74, 144, 168, 0.25);
+    color: white;
+    box-shadow: 0 20px 40px rgba(74, 144, 168, 0.4);
+  }
+
+  /* Cinematic Input */
+  .input-cinematic {
+    @apply w-full px-6 py-4 rounded-2xl border-2 transition-all duration-300 bg-white/60;
+    border-color: rgba(139, 115, 85, 0.3);
+    font-size: 1rem;
+  }
+
+  .input-cinematic:focus {
+    outline: none;
+    border-color: #4a90a8;
+    box-shadow: 0 0 0 4px rgba(74, 144, 168, 0.15);
+    background: white;
+  }
+
+  /* Image Placeholder */
+  .img-placeholder {
+    @apply bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl flex items-center justify-center;
+    min-height: 200px;
+  }
+
+
+
+  .img-with-real-photo {
+    @apply bg-gray-200 rounded-2xl;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+  }
+
+  .img-placeholder-lg {
+    min-height: 400px;
+  }
+
+  /* Cinematic Badge */
+  .badge-cinematic {
+    @apply px-4 py-2 rounded-full text-sm font-medium;
+    background: rgba(201, 168, 124, 0.2);
+    color: #8b7355;
+    border: 1px solid rgba(201, 168, 124, 0.3);
+  }
+
+  /* Cinematic Navigation */
+  .nav-cinematic {
+    @apply sticky top-0 z-50 px-6 py-4;
+    background: rgba(245, 240, 232, 0.8);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@layer utilities {
+  .text-cinematic {
+    @apply font-display font-bold;
+    letter-spacing: -0.02em;
+  }
+
+  .text-gradient-cinematic {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #2c5f7c 0%, #4a90a8 50%, #c9a87c 100%);
+  }
+
+  /* Parallax layers */
+  .parallax-layer {
+    will-change: transform;
+    transition: transform 0.1s linear;
+  }
+
+  .parallax-slow {
+    animation: parallaxSlow 20s linear infinite;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f0e8;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-mostar-warm rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-mostar-stone;
+}
+
+::selection {
+  @apply bg-mostar-warm/30 text-mostar-dark;
+}
+
+:focus-visible {
+  @apply outline-none ring-2 ring-mostar-sky ring-offset-2 ring-offset-mostar-cream;
+}
+
+/* UI rebuild trigger */

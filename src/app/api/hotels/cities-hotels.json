@@ -1,0 +1,98 @@
+﻿{
+    "北京":  [
+               {
+                   "address":  "北京市东城区王府井大街",
+                   "rating":  4.5,
+                   "sourceLabel":  "携程",
+                   "source":  "ctrip",
+                   "name":  "北京王府井智选假日酒店",
+                   "price1":  180,
+                   "tag":  "第一档·经济型",
+                   "price2":  220
+               },
+               {
+                   "address":  "北京市朝阳区建国门外大街",
+                   "rating":  4.7,
+                   "sourceLabel":  "携程",
+                   "source":  "ctrip",
+                   "name":  "北京国贸大酒店",
+                   "price1":  280,
+                   "tag":  "第二档·舒适型",
+                   "price2":  320
+               },
+               {
+                   "address":  "北京市东城区王府井大街22号",
+                   "rating":  4.9,
+                   "sourceLabel":  "携程",
+                   "source":  "ctrip",
+                   "name":  "北京王府半岛酒店",
+                   "price1":  580,
+                   "tag":  "第三档·豪华型",
+                   "price2":  650
+               }
+           ],
+    "杭州":  [
+               {
+                   "address":  "杭州市西湖区龙井路1号",
+                   "rating":  4.6,
+                   "sourceLabel":  "携程",
+                   "source":  "ctrip",
+                   "name":  "杭州西湖国宾馆",
+                   "price1":  168,
+                   "tag":  "第一档·经济型",
+                   "price2":  218
+               },
+               {
+                   "address":  "杭州市西湖区灵隐路",
+                   "rating":  4.8,
+                   "sourceLabel":  "去哪儿",
+                   "source":  "qunar",
+                   "name":  "杭州西子湖四季酒店",
+                   "price1":  320,
+                   "tag":  "第二档·舒适型",
+                   "price2":  380
+               },
+               {
+                   "address":  "杭州市上城区钱江路",
+                   "rating":  4.7,
+                   "sourceLabel":  "携程",
+                   "source":  "ctrip",
+                   "name":  "杭州君悦酒店",
+                   "price1":  580,
+                   "tag":  "第三档·豪华型",
+                   "price2":  780
+               }
+           ],
+    "上海":  [
+               {
+                   "address":  "上海市黄浦区金陵东路",
+                   "rating":  4.6,
+                   "sourceLabel":  "携程",
+                   "source":  "ctrip",
+                   "name":  "上海外滩华邑酒店",
+                   "price1":  199,
+                   "tag":  "第一档·经济型",
+                   "price2":  259
+               },
+               {
+                   "address":  "上海市静安区华山路",
+                   "rating":  4.7,
+                   "sourceLabel":  "去哪儿",
+                   "source":  "qunar",
+                   "name":  "上海静安希尔顿酒店",
+                   "price1":  350,
+                   "tag":  "第二档·舒适型",
+                   "price2":  420
+               },
+               {
+                   "address":  "上海市浦东新区世纪大道",
+                   "rating":  4.9,
+                   "sourceLabel":  "携程",
+                   "source":  "ctrip",
+                   "name":  "上海浦东丽思卡尔顿酒店",
+                   "price1":  680,
+                   "tag":  "第三档·豪华型",
+                   "price2":  780
+               }
+           ]
+}

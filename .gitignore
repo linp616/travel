@@ -1,0 +1,40 @@
+﻿node_modules/
+.prism/
+dev.db
+.env
+.next/
+out/
+dist/
+
+# Data files
+data/
+
+# Environment
+.env.local
+
+# Logs
+logs/
+
+# Server info
+.server_info.json
+
+# Temp files
+*.txt
+*.b64
+*.html
+_*.js
+run-*
+start-*
+write-*
+writer*
+gen-*
+fix-*
+update-*
+test-*
+check-*
+csv-*
+*.err
+*.log
+init-db.sql
+travel-data.json
+tsconfig.tsbuildinfo"图片下载指南.ps1"

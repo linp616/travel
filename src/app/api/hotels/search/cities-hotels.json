@@ -1,0 +1,371 @@
+﻿{
+  "北京": [
+    {
+      "name": "北京前门建国饭店",
+      "price": 398,
+      "address": "北京市西城区前门西河沿街82号",
+      "rating": 4.3
+    },
+    {
+      "name": "北京丽思卡尔顿酒店",
+      "price": 1580,
+      "address": "北京市东城区光华路1号",
+      "rating": 4.8
+    },
+    {
+      "name": "北京王府井希尔顿酒店",
+      "price": 980,
+      "address": "北京市东城区王府井大街2号",
+      "rating": 4.6
+    }
+  ],
+  "上海": [
+    {
+      "name": "上海青年旅舍",
+      "price": 88,
+      "address": "上海市黄浦区外滩",
+      "rating": 4.2
+    },
+    {
+      "name": "上海如家酒店",
+      "price": 188,
+      "address": "上海市静安区南京西路",
+      "rating": 4.1
+    },
+    {
+      "name": "上海浦东丽思卡尔顿酒店",
+      "price": 1680,
+      "address": "上海市浦东新区世纪大道",
+      "rating": 4.9
+    }
+  ],
+  "丽江": [
+    {
+      "name": "丽江古城青年旅舍",
+      "price": 58,
+      "price1": 58,
+      "price2": 78,
+      "rating": 4.5,
+      "address": "丽江市古城区丽江古城四方街",
+      "source": "qunar",
+      "sourceLabel": "去哪儿",
+      "tag": "青旅"
+    },
+    {
+      "name": "丽江千里走单骑艺术酒店",
+      "price": 368,
+      "price1": 368,
+      "price2": 468,
+      "rating": 4.7,
+      "address": "丽江市古城区大研古城",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "民宿"
+    },
+    {
+      "name": "丽江金茂凯悦臻选酒店",
+      "price": 1280,
+      "price1": 1280,
+      "price2": 1580,
+      "rating": 4.9,
+      "address": "丽江市古城区香格里大道",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "豪华型"
+    },
+    {
+      "name": "丽江古城安缇缇国际青年旅舍",
+      "price": 68,
+      "price1": 68,
+      "price2": 88,
+      "rating": 4.3,
+      "address": "丽江市古城区八一街",
+      "source": "meituan",
+      "sourceLabel": "美团",
+      "tag": "青旅"
+    },
+    {
+      "name": "丽江古城梧桐苑精品民宿",
+      "price": 258,
+      "price1": 258,
+      "price2": 318,
+      "rating": 4.6,
+      "address": "丽江市古城区光义街",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "民宿"
+    },
+    {
+      "name": "丽江悦榕庄",
+      "price": 2680,
+      "price1": 2680,
+      "price2": 3280,
+      "rating": 4.9,
+      "address": "丽江市玉龙县白沙乡",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "豪华型"
+    },
+    {
+      "name": "丽江古城花间堂探花桥馆",
+      "price": 688,
+      "price1": 688,
+      "price2": 888,
+      "rating": 4.8,
+      "address": "丽江市古城区花马街",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "精品民宿"
+    },
+    {
+      "name": "丽江古城漫行时光精品民宿",
+      "price": 198,
+      "price1": 198,
+      "price2": 258,
+      "rating": 4.4,
+      "address": "丽江市古城区象山之目段",
+      "source": "qunar",
+      "sourceLabel": "去哪儿",
+      "tag": "民宿"
+    },
+    {
+      "name": "丽江古城无象之象美学酒店",
+      "price": 568,
+      "price1": 568,
+      "price2": 688,
+      "rating": 4.7,
+      "address": "丽江市古城区教育路",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "设计酒店"
+    },
+    {
+      "name": "丽江古城君龙国际大酒店",
+      "price": 328,
+      "price1": 328,
+      "price2": 428,
+      "rating": 4.5,
+      "address": "丽江市古城区康仲路",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "舒适型"
+    }
+  ],
+  "大理": [
+    {
+      "name": "大理古城青瓦屋青年旅舍",
+      "price": 48,
+      "price1": 48,
+      "price2": 68,
+      "rating": 4.4,
+      "address": "大理市大理古城人民路",
+      "source": "qunar",
+      "sourceLabel": "去哪儿",
+      "tag": "青旅"
+    },
+    {
+      "name": "大理古城平波居精品民宿",
+      "price": 288,
+      "price1": 288,
+      "price2": 358,
+      "rating": 4.6,
+      "address": "大理市大理古城叶榆路",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "民宿"
+    },
+    {
+      "name": "大理悦享山海海景酒店",
+      "price": 588,
+      "price1": 588,
+      "price2": 788,
+      "rating": 4.8,
+      "address": "大理市洱源县茈碧湖镇",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "海景酒店"
+    },
+    {
+      "name": "大理古城既见民宿",
+      "price": 198,
+      "price1": 198,
+      "price2": 258,
+      "rating": 4.5,
+      "address": "大理市大理古城复兴路",
+      "source": "meituan",
+      "sourceLabel": "美团",
+      "tag": "民宿"
+    },
+    {
+      "name": "大理赛典赤大酒店",
+      "price": 358,
+      "price1": 358,
+      "price2": 458,
+      "rating": 4.5,
+      "address": "大理市大理古城玉洱路",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "舒适型"
+    },
+    {
+      "name": "大理古城美岸精品会馆",
+      "price": 428,
+      "price1": 428,
+      "price2": 528,
+      "rating": 4.7,
+      "address": "大理市大理古城人民路",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "精品民宿"
+    }
+  ],
+  "厦门": [
+    {
+      "name": "厦门鼓浪屿船屋国际青年旅舍",
+      "price": 78,
+      "price1": 78,
+      "price2": 98,
+      "rating": 4.3,
+      "address": "厦门市思明区鼓浪屿福建路",
+      "source": "qunar",
+      "sourceLabel": "去哪儿",
+      "tag": "青旅"
+    },
+    {
+      "name": "厦门鼓浪屿花筑·精品民宿",
+      "price": 328,
+      "price1": 328,
+      "price2": 428,
+      "rating": 4.6,
+      "address": "厦门市思明区鼓浪屿龙头路",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "民宿"
+    },
+    {
+      "name": "厦门海悦山庄酒店",
+      "price": 888,
+      "price1": 888,
+      "price2": 1088,
+      "rating": 4.8,
+      "address": "厦门市思明区虎园路",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "豪华型"
+    },
+    {
+      "name": "厦门鼓浪屿内岸民宿",
+      "price": 258,
+      "price1": 258,
+      "price2": 328,
+      "rating": 4.5,
+      "address": "厦门市思明区鼓浪屿晃岩路",
+      "source": "meituan",
+      "sourceLabel": "美团",
+      "tag": "民宿"
+    },
+    {
+      "name": "厦门特房波特曼七星湾酒店",
+      "price": 688,
+      "price1": 688,
+      "price2": 888,
+      "rating": 4.7,
+      "address": "厦门市翔安区香山道",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "度假酒店"
+    }
+  ],
+  "成都": [
+    {
+      "name": "成都宽窄巷子青年旅舍",
+      "price": 68,
+      "price1": 68,
+      "price2": 88,
+      "rating": 4.4,
+      "address": "成都市青羊区宽窄巷子",
+      "source": "qunar",
+      "sourceLabel": "去哪儿",
+      "tag": "青旅"
+    },
+    {
+      "name": "成都博瑞都市酒店",
+      "price": 298,
+      "price1": 298,
+      "price2": 368,
+      "rating": 4.5,
+      "address": "成都市锦江区春熙路",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "舒适型"
+    },
+    {
+      "name": "成都尼依格酒店",
+      "price": 988,
+      "price1": 988,
+      "price2": 1288,
+      "rating": 4.8,
+      "address": "成都市锦江区红星路三段",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "豪华型"
+    },
+    {
+      "name": "成都银泰 in99 公寓",
+      "price": 358,
+      "price1": 358,
+      "price2": 458,
+      "rating": 4.6,
+      "address": "成都市高新区天府大道",
+      "source": "meituan",
+      "sourceLabel": "美团",
+      "tag": "公寓"
+    }
+  ],
+  "杭州": [
+    {
+      "name": "杭州西湖青年旅舍",
+      "price": 88,
+      "price1": 88,
+      "price2": 108,
+      "rating": 4.3,
+      "address": "杭州市西湖区龙井路",
+      "source": "qunar",
+      "sourceLabel": "去哪儿",
+      "tag": "青旅"
+    },
+    {
+      "name": "杭州西湖国宾馆",
+      "price": 1288,
+      "price1": 1288,
+      "price2": 1688,
+      "rating": 4.9,
+      "address": "杭州市西湖区杨公堤",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "豪华型"
+    },
+    {
+      "name": "杭州西湖温泉度假村",
+      "price": 588,
+      "price1": 588,
+      "price2": 788,
+      "rating": 4.7,
+      "address": "杭州市西湖区梅家坞",
+      "source": "ctrip",
+      "sourceLabel": "携程",
+      "tag": "度假"
+    },
+    {
+      "name": "杭州如家酒店西湖店",
+      "price": 198,
+      "price1": 198,
+      "price2": 258,
+      "rating": 4.2,
+      "address": "杭州市西湖区北山街",
+      "source": "meituan",
+      "sourceLabel": "美团",
+      "tag": "经济型"
+    }
+  ]
+}
