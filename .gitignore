@@ -38,3 +38,8 @@ csv-*
 init-db.sql
 travel-data.json
 tsconfig.tsbuildinfo"图片下载指南.ps1"
+
+# Data files
+data/*.json
+!data/bookmarks.json
+!data/trips.json
