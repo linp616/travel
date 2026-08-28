@@ -6,14 +6,14 @@ function getNow() {
   return new Date().toISOString().replace(/T/, " ").replace(/\\.\\d{3}Z/, "")
 }
 
-const REAL_HOTELS = require("./cities-hotels.json")
-const DEFAULT_HOTELS = ["{city}国际大酒店", "{city}皇冠假日酒店", "{city}万豪酒店"]
+const REAL_HOTELS: Record<string, any[]> = require("./cities-hotels.json")
+const DEFAULT_HOTELS = ["{city}国际大酒�?, "{city}皇冠假日酒店", "{city}万豪酒店"]
 
 export async function POST(req: Request) {
   try {
     const { city, budget, days, tripId, guests = 1 } = await req.json()
     if (!city) return NextResponse.json({ success: false, error: "Missing city" }, { status: 400 })
-    const hotels = (REAL_HOTELS[city] || []).map((h) => ({ ...h, price: h.price1 }))
+    const hotels = (REAL_HOTELS[city] || []).map((h: any) => ({ ...h, price: h.price1 }))
     if (tripId) {
       await prisma.hotelRecommendation.deleteMany({ where: { tripId } })
       for (const h of hotels) {
