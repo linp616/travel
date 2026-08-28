@@ -1,0 +1,1328 @@
+﻿{
+  "北京-上海": [
+    {
+      "method": "高铁",
+      "routeNumber": "G1",
+      "departureTime": "07:00",
+      "arrivalTime": "11:30",
+      "duration": 270,
+      "price": 662,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G3",
+      "departureTime": "09:00",
+      "arrivalTime": "13:10",
+      "duration": 250,
+      "price": 662,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA1501",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 1200,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "MU5101",
+      "departureTime": "14:00",
+      "arrivalTime": "16:10",
+      "duration": 130,
+      "price": 980,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "大巴",
+      "routeNumber": "京沪长途",
+      "departureTime": "08:30",
+      "arrivalTime": "18:30",
+      "duration": 600,
+      "price": 280,
+      "source": "qunar",
+      "sourceLabel": "去哪儿"
+    }
+  ],
+  "北京-广州": [
+    {
+      "method": "高铁",
+      "routeNumber": "G79",
+      "departureTime": "08:00",
+      "arrivalTime": "15:30",
+      "duration": 450,
+      "price": 862,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G71",
+      "departureTime": "10:00",
+      "arrivalTime": "17:40",
+      "duration": 460,
+      "price": 862,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA1301",
+      "departureTime": "07:30",
+      "arrivalTime": "10:20",
+      "duration": 170,
+      "price": 1400,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CZ3501",
+      "departureTime": "13:00",
+      "arrivalTime": "16:00",
+      "duration": 180,
+      "price": 1100,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-成都": [
+    {
+      "method": "飞机",
+      "routeNumber": "CA4153",
+      "departureTime": "07:00",
+      "arrivalTime": "09:30",
+      "duration": 150,
+      "price": 1050,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G3281",
+      "departureTime": "08:00",
+      "arrivalTime": "18:00",
+      "duration": 600,
+      "price": 760,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "火车",
+      "routeNumber": "Z378",
+      "departureTime": "23:00",
+      "arrivalTime": "11:00+1",
+      "duration": 960,
+      "price": 195,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "北京-西安": [
+    {
+      "method": "高铁",
+      "routeNumber": "G651",
+      "departureTime": "07:00",
+      "arrivalTime": "11:00",
+      "duration": 240,
+      "price": 466,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G201",
+      "departureTime": "09:00",
+      "arrivalTime": "13:00",
+      "duration": 240,
+      "price": 466,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4101",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 900,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-杭州": [
+    {
+      "method": "飞机",
+      "routeNumber": "PEK4561",
+      "departureTime": "07:30",
+      "arrivalTime": "09:30",
+      "duration": 120,
+      "price": 950,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G28",
+      "departureTime": "09:00",
+      "arrivalTime": "13:00",
+      "duration": 240,
+      "price": 662,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "火车",
+      "routeNumber": "T282",
+      "departureTime": "21:00",
+      "arrivalTime": "06:00+1",
+      "duration": 720,
+      "price": 155,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "北京-深圳": [
+    {
+      "method": "高铁",
+      "routeNumber": "G79",
+      "departureTime": "08:00",
+      "arrivalTime": "15:30",
+      "duration": 450,
+      "price": 862,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA1301",
+      "departureTime": "07:30",
+      "arrivalTime": "10:20",
+      "duration": 170,
+      "price": 1400,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "ZH9501",
+      "departureTime": "13:00",
+      "arrivalTime": "16:00",
+      "duration": 180,
+      "price": 1050,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-厦门": [
+    {
+      "method": "飞机",
+      "routeNumber": "MF8156",
+      "departureTime": "06:30",
+      "arrivalTime": "09:00",
+      "duration": 150,
+      "price": 980,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G161",
+      "departureTime": "07:00",
+      "arrivalTime": "14:30",
+      "duration": 450,
+      "price": 662,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "火车",
+      "routeNumber": "Z308",
+      "departureTime": "22:00",
+      "arrivalTime": "14:00+1",
+      "duration": 960,
+      "price": 185,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "北京-三亚": [
+    {
+      "method": "飞机",
+      "routeNumber": "CA4301",
+      "departureTime": "07:30",
+      "arrivalTime": "11:30",
+      "duration": 240,
+      "price": 1500,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "HU7601",
+      "departureTime": "10:00",
+      "arrivalTime": "14:00",
+      "duration": 240,
+      "price": 1300,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "ZH9101",
+      "departureTime": "14:30",
+      "arrivalTime": "18:30",
+      "duration": 240,
+      "price": 1100,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-南京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G101",
+      "departureTime": "07:00",
+      "arrivalTime": "11:30",
+      "duration": 270,
+      "price": 541,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G21",
+      "departureTime": "09:00",
+      "arrivalTime": "13:20",
+      "duration": 260,
+      "price": 541,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4111",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 800,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-重庆": [
+    {
+      "method": "高铁",
+      "routeNumber": "G3401",
+      "departureTime": "08:00",
+      "arrivalTime": "17:00",
+      "duration": 540,
+      "price": 650,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4501",
+      "departureTime": "07:30",
+      "arrivalTime": "10:30",
+      "duration": 180,
+      "price": 1200,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-昆明": [
+    {
+      "method": "高铁",
+      "routeNumber": "G401",
+      "departureTime": "08:00",
+      "arrivalTime": "20:00",
+      "duration": 720,
+      "price": 862,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4311",
+      "departureTime": "07:00",
+      "arrivalTime": "10:30",
+      "duration": 210,
+      "price": 1300,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-武汉": [
+    {
+      "method": "高铁",
+      "routeNumber": "G11",
+      "departureTime": "07:00",
+      "arrivalTime": "10:30",
+      "duration": 210,
+      "price": 452,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G15",
+      "departureTime": "09:00",
+      "arrivalTime": "12:30",
+      "duration": 210,
+      "price": 452,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4151",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 700,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-丽江": [
+    {
+      "method": "飞机",
+      "routeNumber": "CA4311",
+      "departureTime": "07:30",
+      "arrivalTime": "11:00",
+      "duration": 210,
+      "price": 1400,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "MU2341",
+      "departureTime": "10:00",
+      "arrivalTime": "13:30",
+      "duration": 210,
+      "price": 1200,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G1503",
+      "departureTime": "08:00",
+      "arrivalTime": "22:30",
+      "duration": 870,
+      "price": 489,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "火车",
+      "routeNumber": "Z264",
+      "departureTime": "21:30",
+      "arrivalTime": "06:00+2",
+      "duration": 1350,
+      "price": 285,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "北京-大连": [
+    {
+      "method": "高铁",
+      "routeNumber": "G367",
+      "departureTime": "07:00",
+      "arrivalTime": "11:30",
+      "duration": 270,
+      "price": 470,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4171",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 800,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-青岛": [
+    {
+      "method": "高铁",
+      "routeNumber": "G207",
+      "departureTime": "07:00",
+      "arrivalTime": "11:00",
+      "duration": 240,
+      "price": 425,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G227",
+      "departureTime": "09:00",
+      "arrivalTime": "13:00",
+      "duration": 240,
+      "price": 425,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4171",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 100,
+      "price": 750,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-苏州": [
+    {
+      "method": "高铁",
+      "routeNumber": "G31",
+      "departureTime": "07:00",
+      "arrivalTime": "11:30",
+      "duration": 270,
+      "price": 541,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4111",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 800,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-桂林": [
+    {
+      "method": "高铁",
+      "routeNumber": "G529",
+      "departureTime": "08:00",
+      "arrivalTime": "16:00",
+      "duration": 480,
+      "price": 500,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4511",
+      "departureTime": "07:30",
+      "arrivalTime": "11:00",
+      "duration": 180,
+      "price": 1100,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-黄山": [
+    {
+      "method": "高铁",
+      "routeNumber": "G31",
+      "departureTime": "07:00",
+      "arrivalTime": "12:00",
+      "duration": 300,
+      "price": 590,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4111",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 850,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-张家界": [
+    {
+      "method": "高铁",
+      "routeNumber": "G11",
+      "departureTime": "07:00",
+      "arrivalTime": "14:00",
+      "duration": 420,
+      "price": 550,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4151",
+      "departureTime": "08:00",
+      "arrivalTime": "11:00",
+      "duration": 150,
+      "price": 1000,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "上海-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G1",
+      "departureTime": "08:00",
+      "arrivalTime": "12:30",
+      "duration": 270,
+      "price": 662,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G3",
+      "departureTime": "08:00",
+      "arrivalTime": "12:10",
+      "duration": 250,
+      "price": 662,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA1501",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 1200,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "MU5101",
+      "departureTime": "08:00",
+      "arrivalTime": "10:10",
+      "duration": 130,
+      "price": 980,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "大巴",
+      "routeNumber": "京沪长途",
+      "departureTime": "08:00",
+      "arrivalTime": "18:00",
+      "duration": 600,
+      "price": 280,
+      "source": "qunar",
+      "sourceLabel": "去哪儿"
+    }
+  ],
+  "广州-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G79",
+      "departureTime": "08:00",
+      "arrivalTime": "15:30",
+      "duration": 450,
+      "price": 862,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G71",
+      "departureTime": "08:00",
+      "arrivalTime": "15:40",
+      "duration": 460,
+      "price": 862,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA1301",
+      "departureTime": "08:00",
+      "arrivalTime": "10:50",
+      "duration": 170,
+      "price": 1400,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CZ3501",
+      "departureTime": "08:00",
+      "arrivalTime": "11:00",
+      "duration": 180,
+      "price": 1100,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "成都-北京": [
+    {
+      "method": "飞机",
+      "routeNumber": "CA4154",
+      "departureTime": "10:00",
+      "arrivalTime": "12:30",
+      "duration": 150,
+      "price": 1100,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G3282",
+      "departureTime": "09:00",
+      "arrivalTime": "19:00",
+      "duration": 600,
+      "price": 760,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "西安-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G651",
+      "departureTime": "08:00",
+      "arrivalTime": "12:00",
+      "duration": 240,
+      "price": 466,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G201",
+      "departureTime": "08:00",
+      "arrivalTime": "12:00",
+      "duration": 240,
+      "price": 466,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4101",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 900,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "杭州-北京": [
+    {
+      "method": "飞机",
+      "routeNumber": "HGH4562",
+      "departureTime": "10:30",
+      "arrivalTime": "12:30",
+      "duration": 120,
+      "price": 980,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G27",
+      "departureTime": "08:00",
+      "arrivalTime": "12:00",
+      "duration": 240,
+      "price": 662,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "深圳-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G79",
+      "departureTime": "08:00",
+      "arrivalTime": "15:30",
+      "duration": 450,
+      "price": 862,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA1301",
+      "departureTime": "08:00",
+      "arrivalTime": "10:50",
+      "duration": 170,
+      "price": 1400,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "ZH9501",
+      "departureTime": "08:00",
+      "arrivalTime": "11:00",
+      "duration": 180,
+      "price": 1050,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "厦门-北京": [
+    {
+      "method": "飞机",
+      "routeNumber": "MF8157",
+      "departureTime": "10:00",
+      "arrivalTime": "12:30",
+      "duration": 150,
+      "price": 1020,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G162",
+      "departureTime": "08:00",
+      "arrivalTime": "15:30",
+      "duration": 450,
+      "price": 662,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "三亚-北京": [
+    {
+      "method": "飞机",
+      "routeNumber": "CA4301",
+      "departureTime": "08:00",
+      "arrivalTime": "12:00",
+      "duration": 240,
+      "price": 1500,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "HU7601",
+      "departureTime": "08:00",
+      "arrivalTime": "12:00",
+      "duration": 240,
+      "price": 1300,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "ZH9101",
+      "departureTime": "08:00",
+      "arrivalTime": "12:00",
+      "duration": 240,
+      "price": 1100,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "南京-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G101",
+      "departureTime": "08:00",
+      "arrivalTime": "12:30",
+      "duration": 270,
+      "price": 541,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G21",
+      "departureTime": "08:00",
+      "arrivalTime": "12:20",
+      "duration": 260,
+      "price": 541,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4111",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 800,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "重庆-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G3401",
+      "departureTime": "08:00",
+      "arrivalTime": "17:00",
+      "duration": 540,
+      "price": 650,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4501",
+      "departureTime": "08:00",
+      "arrivalTime": "11:00",
+      "duration": 180,
+      "price": 1200,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "昆明-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G401",
+      "departureTime": "08:00",
+      "arrivalTime": "20:00",
+      "duration": 720,
+      "price": 862,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4311",
+      "departureTime": "08:00",
+      "arrivalTime": "11:30",
+      "duration": 210,
+      "price": 1300,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "武汉-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G11",
+      "departureTime": "08:00",
+      "arrivalTime": "11:30",
+      "duration": 210,
+      "price": 452,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G15",
+      "departureTime": "08:00",
+      "arrivalTime": "11:30",
+      "duration": 210,
+      "price": 452,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4151",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 700,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "丽江-北京": [
+    {
+      "method": "飞机",
+      "routeNumber": "CA4312",
+      "departureTime": "14:00",
+      "arrivalTime": "17:30",
+      "duration": 210,
+      "price": 1450,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "MU2342",
+      "departureTime": "16:30",
+      "arrivalTime": "20:00",
+      "duration": 210,
+      "price": 1250,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G1504",
+      "departureTime": "09:00",
+      "arrivalTime": "23:30",
+      "duration": 870,
+      "price": 489,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "大连-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G367",
+      "departureTime": "08:00",
+      "arrivalTime": "12:30",
+      "duration": 270,
+      "price": 470,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4171",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 800,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "青岛-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G207",
+      "departureTime": "08:00",
+      "arrivalTime": "12:00",
+      "duration": 240,
+      "price": 425,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G227",
+      "departureTime": "08:00",
+      "arrivalTime": "12:00",
+      "duration": 240,
+      "price": 425,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4171",
+      "departureTime": "08:00",
+      "arrivalTime": "09:40",
+      "duration": 100,
+      "price": 750,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "苏州-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G31",
+      "departureTime": "08:00",
+      "arrivalTime": "12:30",
+      "duration": 270,
+      "price": 541,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4111",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 800,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "桂林-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G529",
+      "departureTime": "08:00",
+      "arrivalTime": "16:00",
+      "duration": 480,
+      "price": 500,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4511",
+      "departureTime": "08:00",
+      "arrivalTime": "11:00",
+      "duration": 180,
+      "price": 1100,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "黄山-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G31",
+      "departureTime": "08:00",
+      "arrivalTime": "13:00",
+      "duration": 300,
+      "price": 590,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4111",
+      "departureTime": "08:00",
+      "arrivalTime": "10:00",
+      "duration": 120,
+      "price": 850,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "张家界-北京": [
+    {
+      "method": "高铁",
+      "routeNumber": "G11",
+      "departureTime": "08:00",
+      "arrivalTime": "15:00",
+      "duration": 420,
+      "price": 550,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "method": "飞机",
+      "routeNumber": "CA4151",
+      "departureTime": "08:00",
+      "arrivalTime": "10:30",
+      "duration": 150,
+      "price": 1000,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-贵阳": [
+    {
+      "routeNumber": "G2901",
+      "departureTime": "08:30",
+      "source": "12306",
+      "duration": 480,
+      "method": "高铁",
+      "price": 598,
+      "arrivalTime": "16:30",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "routeNumber": "CZ6234",
+      "departureTime": "09:30",
+      "source": "ctrip",
+      "duration": 150,
+      "method": "飞机",
+      "price": 850,
+      "arrivalTime": "12:00",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-敦煌": [
+    {
+      "routeNumber": "KN5821",
+      "departureTime": "09:00",
+      "source": "ctrip",
+      "duration": 210,
+      "method": "飞机",
+      "price": 980,
+      "arrivalTime": "12:30",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-长沙": [
+    {
+      "routeNumber": "G671",
+      "departureTime": "08:00",
+      "source": "12306",
+      "duration": 330,
+      "method": "高铁",
+      "price": 553,
+      "arrivalTime": "13:30",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "routeNumber": "CZ6421",
+      "departureTime": "10:00",
+      "source": "ctrip",
+      "duration": 140,
+      "method": "飞机",
+      "price": 780,
+      "arrivalTime": "12:00",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-哈尔滨": [
+    {
+      "routeNumber": "G901",
+      "departureTime": "07:00",
+      "source": "12306",
+      "duration": 270,
+      "method": "高铁",
+      "price": 523,
+      "arrivalTime": "11:30",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "routeNumber": "CZ6101",
+      "departureTime": "09:00",
+      "source": "ctrip",
+      "duration": 140,
+      "method": "飞机",
+      "price": 780,
+      "arrivalTime": "11:00",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-大理": [
+    {
+      "method": "飞机",
+      "routeNumber": "KN5847",
+      "departureTime": "07:00",
+      "arrivalTime": "10:00",
+      "duration": 180,
+      "price": 1100,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G1501",
+      "departureTime": "08:30",
+      "arrivalTime": "23:00",
+      "duration": 870,
+      "price": 465,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "北京-宁波": [
+    {
+      "routeNumber": "G311",
+      "departureTime": "08:00",
+      "source": "12306",
+      "duration": 270,
+      "method": "高铁",
+      "price": 447,
+      "arrivalTime": "12:30",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "routeNumber": "CA1891",
+      "departureTime": "10:00",
+      "source": "ctrip",
+      "duration": 140,
+      "method": "飞机",
+      "price": 750,
+      "arrivalTime": "12:00",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-拉萨": [
+    {
+      "routeNumber": "CA4101",
+      "departureTime": "11:00",
+      "source": "ctrip",
+      "duration": 270,
+      "method": "飞机",
+      "price": 1280,
+      "arrivalTime": "15:30",
+      "sourceLabel": "携程"
+    },
+    {
+      "routeNumber": "Z21",
+      "departureTime": "21:00",
+      "source": "12306",
+      "duration": 3450,
+      "method": "火车",
+      "price": 450,
+      "arrivalTime": "15:30+2",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "北京-福州": [
+    {
+      "routeNumber": "G1681",
+      "departureTime": "07:30",
+      "source": "12306",
+      "duration": 420,
+      "method": "高铁",
+      "price": 569,
+      "arrivalTime": "14:30",
+      "sourceLabel": "铁路12306"
+    },
+    {
+      "routeNumber": "MU2345",
+      "departureTime": "09:00",
+      "source": "ctrip",
+      "duration": 140,
+      "method": "飞机",
+      "price": 820,
+      "arrivalTime": "11:00",
+      "sourceLabel": "携程"
+    }
+  ],
+  "北京-乌鲁木齐": [
+    {
+      "routeNumber": "CZ6701",
+      "departureTime": "10:00",
+      "source": "ctrip",
+      "duration": 270,
+      "method": "飞机",
+      "price": 1180,
+      "arrivalTime": "14:30",
+      "sourceLabel": "携程"
+    },
+    {
+      "routeNumber": "T7001",
+      "departureTime": "20:00",
+      "source": "12306",
+      "duration": 2400,
+      "method": "火车",
+      "price": 350,
+      "arrivalTime": "20:00+1",
+      "sourceLabel": "铁路12306"
+    }
+  ],
+  "大理-北京": [
+    {
+      "method": "飞机",
+      "routeNumber": "KN5848",
+      "departureTime": "11:00",
+      "arrivalTime": "14:00",
+      "duration": 180,
+      "price": 1150,
+      "source": "ctrip",
+      "sourceLabel": "携程"
+    },
+    {
+      "method": "高铁",
+      "routeNumber": "G1502",
+      "departureTime": "09:30",
+      "arrivalTime": "00:00+1",
+      "duration": 870,
+      "price": 465,
+      "source": "12306",
+      "sourceLabel": "铁路12306"
+    }
+  ]
+}

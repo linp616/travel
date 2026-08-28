@@ -6,8 +6,8 @@ dev.db
 out/
 dist/
 
-# Data files
-data/
+# Data files (push manually if needed)
+# data/
 
 # Environment
 .env.local

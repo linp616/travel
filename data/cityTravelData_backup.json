@@ -1,0 +1,2315 @@
+﻿{
+    "三亚":  {
+               "attractions":  [
+                                   {
+                                       "name":  "亚龙湾",
+                                       "ticket":  0,
+                                       "duration":  "4-6小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "吉阳区亚龙湾",
+                                       "miniProgram":  "亚龙湾",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "蜈支洲岛",
+                                       "ticket":  128,
+                                       "duration":  "4-5小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "陵水县蜈支洲岛",
+                                       "miniProgram":  "蜈支洲岛",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "天涯海角",
+                                       "ticket":  70,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "天涯区天涯镇",
+                                       "miniProgram":  "天涯海角",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "南山文化旅游区",
+                                       "ticket":  129,
+                                       "duration":  "3-4小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "崖州区南山寺",
+                                       "miniProgram":  "南山寺",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "大小洞天",
+                                       "ticket":  80,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "25分钟",
+                                       "address":  "崖州区大小洞天",
+                                       "miniProgram":  "大小洞天",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "椰子鸡",
+                                 "cost":  120,
+                                 "location":  "吉阳区"
+                             },
+                             {
+                                 "name":  "海鲜（第一市场）",
+                                 "cost":  150,
+                                 "location":  "吉阳区"
+                             },
+                             {
+                                 "name":  "陵水酸粉",
+                                 "cost":  25,
+                                 "location":  "陵水县"
+                             },
+                             {
+                                 "name":  "清补凉",
+                                 "cost":  20,
+                                 "location":  "各区"
+                             },
+                             {
+                                 "name":  "芒果糯米饭",
+                                 "cost":  30,
+                                 "location":  "吉阳区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "三亚海棠湾66温泉度假酒店",
+                                  "price":  680,
+                                  "address":  "三亚市海棠区海棠湾",
+                                  "rating":  4.4
+                              },
+                              {
+                                  "name":  "三亚亚特兰蒂斯酒店",
+                                  "price":  1980,
+                                  "address":  "三亚市海棠区海棠北路",
+                                  "rating":  4.8
+                              },
+                              {
+                                  "name":  "三亚君悦酒店",
+                                  "price":  980,
+                                  "address":  "三亚市吉阳区东海路1号",
+                                  "rating":  4.6
+                              }
+                          ],
+               "tips":  [
+                            "亚龙湾沙滩最好",
+                            "蜈支洲岛适合潜水",
+                            "建议租电动车游览"
+                        ]
+           },
+    "上海":  {
+               "attractions":  [
+                                   {
+                                       "name":  "外滩",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "黄浦区中山东一路",
+                                       "miniProgram":  "外滩",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "豫园",
+                                       "ticket":  40,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁10号线",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "黄浦区豫园路站",
+                                       "miniProgram":  "豫园",
+                                       "bookingTime":  "当日可买"
+                                   },
+                                   {
+                                       "name":  "迪士尼乐园",
+                                       "ticket":  475,
+                                       "duration":  "8-10小时",
+                                       "commute":  "地铁11号线",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "浦东新区川沙新镇",
+                                       "miniProgram":  "上海迪士尼",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "南京路步行街",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "黄浦区南京东路",
+                                       "miniProgram":  "南京路",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "东方明珠",
+                                       "ticket":  199,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "浦东新区世纪大道1号",
+                                       "miniProgram":  "东方明珠",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "小笼包（南翔馒头店）",
+                                 "cost":  45,
+                                 "location":  "豫园内"
+                             },
+                             {
+                                 "name":  "生煎包（大壶春）",
+                                 "cost":  25,
+                                 "location":  "黄浦区"
+                             },
+                             {
+                                 "name":  "红烧肉（人和馆）",
+                                 "cost":  80,
+                                 "location":  "静安区"
+                             },
+                             {
+                                 "name":  "葱油拌面",
+                                 "cost":  20,
+                                 "location":  "各个街区"
+                             },
+                             {
+                                 "name":  "蟹粉面",
+                                 "cost":  68,
+                                 "location":  "黄浦区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "上海豫园万丽酒店",
+                                  "price":  580,
+                                  "address":  "上海市黄浦区河南南路36号",
+                                  "rating":  4.4
+                              },
+                              {
+                                  "name":  "上海外滩华尔道夫酒店",
+                                  "price":  1980,
+                                  "address":  "上海市黄浦区中山东一路2号",
+                                  "rating":  4.9
+                              },
+                              {
+                                  "name":  "上海静安香格里拉大酒店",
+                                  "price":  1280,
+                                  "address":  "上海市静安区南京西路1788号",
+                                  "rating":  4.7
+                              }
+                          ],
+               "tips":  [
+                            "外滩夜景很美建议傍晚去",
+                            "迪士尼需提前购票",
+                            "南京路步行街人较多注意财物"
+                        ]
+           },
+    "丽江":  {
+               "attractions":  [
+                                   {
+                                       "name":  "丽江古城",
+                                       "ticket":  0,
+                                       "duration":  "3-4小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "0分钟",
+                                       "address":  "古城区古城内",
+                                       "miniProgram":  "丽江古城",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "玉龙雪山",
+                                       "ticket":  140,
+                                       "duration":  "5-6小时",
+                                       "commute":  "大巴",
+                                       "commuteTime":  "40分钟",
+                                       "address":  "玉龙县白沙乡",
+                                       "miniProgram":  "玉龙雪山",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "束河古镇",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "打车",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "古城区束河镇",
+                                       "miniProgram":  "束河古镇",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "黑龙潭公园",
+                                       "ticket":  0,
+                                       "duration":  "1-2小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "古城区民主路",
+                                       "miniProgram":  "黑龙潭",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "白沙古镇",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "打车",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "古城区白沙镇",
+                                       "miniProgram":  "白沙古镇",
+                                       "bookingTime":  "免费开放"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "腊排骨火锅",
+                                 "cost":  80,
+                                 "location":  "古城内"
+                             },
+                             {
+                                 "name":  "纳西烤鱼",
+                                 "cost":  60,
+                                 "location":  "古城内"
+                             },
+                             {
+                                 "name":  "鸡豆凉粉",
+                                 "cost":  15,
+                                 "location":  "古城内"
+                             },
+                             {
+                                 "name":  "酥油茶",
+                                 "cost":  20,
+                                 "location":  "古城内"
+                             },
+                             {
+                                 "name":  "青稞饼",
+                                 "cost":  10,
+                                 "location":  "古城内"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "丽江金茂凯悦臻选酒店",
+                                  "price":  880,
+                                  "address":  "丽江市古城区金茂国际生态新城",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "丽江官岸美憬阁精选酒店",
+                                  "price":  1580,
+                                  "address":  "丽江市古城区玉河路",
+                                  "rating":  4.7
+                              },
+                              {
+                                  "name":  "丽江和府洲际度假酒店",
+                                  "price":  680,
+                                  "address":  "丽江市古城区象山开发区",
+                                  "rating":  4.4
+                              }
+                          ],
+               "tips":  [
+                            "玉龙雪山需要提前预约",
+                            "古城维护费已取消",
+                            "建议住古城内方便游玩"
+                        ]
+           },
+    "北京":  {
+               "attractions":  [
+                                   {
+                                       "name":  "故宫博物院",
+                                       "ticket":  60,
+                                       "duration":  "3-4小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "北京市东城区景山前街4号",
+                                       "miniProgram":  "故宫博物院观众服务",
+                                       "bookingTime":  "提前7天预约"
+                                   },
+                                   {
+                                       "name":  "天坛公园",
+                                       "ticket":  34,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁5号线",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "北京市东城区天坛东路",
+                                       "miniProgram":  "天坛公园",
+                                       "bookingTime":  "当日可买"
+                                   },
+                                   {
+                                       "name":  "颐和园",
+                                       "ticket":  54,
+                                       "duration":  "3-4小时",
+                                       "commute":  "地铁4号线",
+                                       "commuteTime":  "40分钟",
+                                       "address":  "北京市海淀区新建宫门路19号",
+                                       "miniProgram":  "颐和园微导游",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "长城八达岭",
+                                       "ticket":  40,
+                                       "duration":  "4-5小时",
+                                       "commute":  "高铁/巴士",
+                                       "commuteTime":  "50分钟",
+                                       "address":  "延庆区G6高速口",
+                                       "miniProgram":  "八达岭长城",
+                                       "bookingTime":  "提前3天预约"
+                                   },
+                                   {
+                                       "name":  "奥林匹克公园",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁8号线",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "北京市朝阳区北辰东路",
+                                       "miniProgram":  "奥运公园",
+                                       "bookingTime":  "免费开放"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "北京烤鸭（全聚德）",
+                                 "cost":  150,
+                                 "location":  "东城区前门大街"
+                             },
+                             {
+                                 "name":  "炸酱面（海碗居）",
+                                 "cost":  35,
+                                 "location":  "西城区"
+                             },
+                             {
+                                 "name":  "豆汁焦圈（护国寺小吃）",
+                                 "cost":  20,
+                                 "location":  "西城区护国寺"
+                             },
+                             {
+                                 "name":  "涮羊肉（东来顺）",
+                                 "cost":  120,
+                                 "location":  "东城区"
+                             },
+                             {
+                                 "name":  "爆肚冯",
+                                 "cost":  80,
+                                 "location":  "西城区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "北京前门建国饭店",
+                                  "price":  398,
+                                  "address":  "北京市西城区前门西河沿街82号",
+                                  "rating":  4.3
+                              },
+                              {
+                                  "name":  "北京丽思卡尔顿酒店",
+                                  "price":  1580,
+                                  "address":  "北京市东城区光华路1号",
+                                  "rating":  4.8
+                              },
+                              {
+                                  "name":  "北京王府井希尔顿酒店",
+                                  "price":  980,
+                                  "address":  "北京市东城区王府井大街2号",
+                                  "rating":  4.6
+                              }
+                          ],
+               "tips":  [
+                            "故宫需提前7天预约，周一闭馆",
+                            "长城建议穿舒适运动鞋",
+                            "旺季酒店价格上涨50%-100%"
+                        ]
+           },
+    "南京":  {
+               "attractions":  [
+                                   {
+                                       "name":  "中山陵",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "玄武区中山陵园",
+                                       "miniProgram":  "中山陵",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "夫子庙",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁3号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "秦淮区夫子庙",
+                                       "miniProgram":  "夫子庙",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "明孝陵",
+                                       "ticket":  70,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "玄武区明孝陵",
+                                       "miniProgram":  "明孝陵",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "玄武湖",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "玄武区玄武路",
+                                       "miniProgram":  "玄武湖",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "总统府",
+                                       "ticket":  40,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "玄武区长江路",
+                                       "miniProgram":  "南京总统府",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "鸭血粉丝汤",
+                                 "cost":  25,
+                                 "location":  "秦淮区"
+                             },
+                             {
+                                 "name":  "盐水鸭（韩复兴）",
+                                 "cost":  60,
+                                 "location":  "秦淮区"
+                             },
+                             {
+                                 "name":  "汤包（尹氏汤包）",
+                                 "cost":  35,
+                                 "location":  "秦淮区"
+                             },
+                             {
+                                 "name":  "牛肉锅贴",
+                                 "cost":  20,
+                                 "location":  "秦淮区"
+                             },
+                             {
+                                 "name":  "糖芋苗",
+                                 "cost":  15,
+                                 "location":  "秦淮区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "南京金陵饭店",
+                                  "price":  580,
+                                  "address":  "南京市玄武区新街口中山东路18号",
+                                  "rating":  4.4
+                              },
+                              {
+                                  "name":  "南京紫清湖温泉微笑酒店",
+                                  "price":  980,
+                                  "address":  "南京市溧水县洪蓝镇",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "南京玄武湖宾馆",
+                                  "price":  480,
+                                  "address":  "南京市玄武区玄武路1号",
+                                  "rating":  4.2
+                              }
+                          ],
+               "tips":  [
+                            "中山陵周一闭馆",
+                            "夫子庙晚上更美",
+                            "鸭血粉丝汤推荐回味鸭血粉丝"
+                        ]
+           },
+    "厦门":  {
+               "attractions":  [
+                                   {
+                                       "name":  "鼓浪屿",
+                                       "ticket":  0,
+                                       "duration":  "4-6小时",
+                                       "commute":  "轮渡",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "思明区鼓浪屿",
+                                       "miniProgram":  "鼓浪屿景区",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "南普陀寺",
+                                       "ticket":  0,
+                                       "duration":  "1-2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "思明区思明南路",
+                                       "miniProgram":  "南普陀寺",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "厦门大学",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "思明区芙蓉路",
+                                       "miniProgram":  "厦大访客预约",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "中山路步行街",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "思明区中山路",
+                                       "miniProgram":  "中山路",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "环岛路",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "思明区环岛南路",
+                                       "miniProgram":  "环岛路",
+                                       "bookingTime":  "免费开放"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "沙茶面",
+                                 "cost":  35,
+                                 "location":  "思明区"
+                             },
+                             {
+                                 "name":  "海蛎煎",
+                                 "cost":  30,
+                                 "location":  "思明区"
+                             },
+                             {
+                                 "name":  "土笋冻",
+                                 "cost":  25,
+                                 "location":  "思明区"
+                             },
+                             {
+                                 "name":  "鱼丸",
+                                 "cost":  20,
+                                 "location":  "思明区"
+                             },
+                             {
+                                 "name":  "花生汤",
+                                 "cost":  15,
+                                 "location":  "思明区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "厦门鼓浪屿悦华酒店",
+                                  "price":  880,
+                                  "address":  "厦门市思明区鼓浪屿鹿礁路",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "厦门康莱德酒店",
+                                  "price":  1280,
+                                  "address":  "厦门市思明区展鸿路8号",
+                                  "rating":  4.7
+                              },
+                              {
+                                  "name":  "厦门七尚酒店",
+                                  "price":  580,
+                                  "address":  "厦门市思明区鹭江道8号",
+                                  "rating":  4.4
+                              }
+                          ],
+               "tips":  [
+                            "鼓浪屿建议早上去避开人流",
+                            "厦门大学需要提前预约",
+                            "沙茶面推荐月华沙茶面"
+                        ]
+           },
+    "大理":  {
+               "attractions":  [
+                                   {
+                                       "name":  "大理古城",
+                                       "ticket":  0,
+                                       "duration":  "3-4小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "0分钟",
+                                       "address":  "大理市大理古城",
+                                       "miniProgram":  "大理古城",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "洱海",
+                                       "ticket":  0,
+                                       "duration":  "4-6小时",
+                                       "commute":  "电动车",
+                                       "commuteTime":  "0分钟",
+                                       "address":  "大理市洱海",
+                                       "miniProgram":  "洱海",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "苍山",
+                                       "ticket":  40,
+                                       "duration":  "3-4小时",
+                                       "commute":  " cable车",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "大理市苍山",
+                                       "miniProgram":  "苍山索道",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "双廊古镇",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "打车",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "大理州双廊镇",
+                                       "miniProgram":  "双廊古镇",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "崇圣寺三塔",
+                                       "ticket":  73,
+                                       "duration":  "2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "大理市三塔路",
+                                       "miniProgram":  "崇圣寺三塔",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "乳扇",
+                                 "cost":  15,
+                                 "location":  "古城内"
+                             },
+                             {
+                                 "name":  "野生菌火锅",
+                                 "cost":  120,
+                                 "location":  "古城内"
+                             },
+                             {
+                                 "name":  "酸辣鱼",
+                                 "cost":  60,
+                                 "location":  "双廊镇"
+                             },
+                             {
+                                 "name":  "米线",
+                                 "cost":  20,
+                                 "location":  "古城内"
+                             },
+                             {
+                                 "name":  "喜洲粑粑",
+                                 "cost":  10,
+                                 "location":  "喜洲镇"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "大理古城美岸精品旅舍",
+                                  "price":  480,
+                                  "address":  "大理市大理古城人民路",
+                                  "rating":  4.3
+                              },
+                              {
+                                  "name":  "大理海棠·金梭岛大酒店",
+                                  "price":  1380,
+                                  "address":  "大理市洱海金梭岛",
+                                  "rating":  4.6
+                              },
+                              {
+                                  "name":  "大理六阅·才村白族庭院民宿",
+                                  "price":  380,
+                                  "address":  "大理市才村码头",
+                                  "rating":  4.4
+                              }
+                          ],
+               "tips":  [
+                            "洱海建议租电动车环湖",
+                            "古城晚上很热闹",
+                            "野生菌季节是6-9月"
+                        ]
+           },
+    "大连":  {
+               "attractions":  [
+                                   {
+                                       "name":  "星海广场",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "沙河口区星海广场",
+                                       "miniProgram":  "星海广场",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "老虎滩海洋公园",
+                                       "ticket":  190,
+                                       "duration":  "4-5小时",
+                                       "commute":  "地铁",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "中山区老虎滩",
+                                       "miniProgram":  "老虎滩海洋公园",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "金石滩",
+                                       "ticket":  100,
+                                       "duration":  "4-5小时",
+                                       "commute":  "快轨",
+                                       "commuteTime":  "40分钟",
+                                       "address":  "金州区金石滩",
+                                       "miniProgram":  "金石滩",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "中山广场",
+                                       "ticket":  0,
+                                       "duration":  "1小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "中山区中山广场",
+                                       "miniProgram":  "中山广场",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "棒棰岛",
+                                       "ticket":  10,
+                                       "duration":  "2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "中山区棒棰岛",
+                                       "miniProgram":  "棒棰岛",
+                                       "bookingTime":  "当日可买"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "海鲜烧烤",
+                                 "cost":  100,
+                                 "location":  "沙河口区"
+                             },
+                             {
+                                 "name":  "饺子（喜鼎）",
+                                 "cost":  80,
+                                 "location":  "沙河口区"
+                             },
+                             {
+                                 "name":  "海胆水饺",
+                                 "cost":  60,
+                                 "location":  "中山区"
+                             },
+                             {
+                                 "name":  "烤海鲜",
+                                 "cost":  80,
+                                 "location":  "星海广场"
+                             },
+                             {
+                                 "name":  "锅包肉",
+                                 "cost":  35,
+                                 "location":  "各区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "大连海景宾悦大酒店",
+                                  "price":  480,
+                                  "address":  "大连市中山区人民东路",
+                                  "rating":  4.3
+                              },
+                              {
+                                  "name":  "大连海悦王朝酒店",
+                                  "price":  680,
+                                  "address":  "大连市中山区解放路110号",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "大连君悦酒店",
+                                  "price":  1180,
+                                  "address":  "大连市中山区港东九街",
+                                  "rating":  4.7
+                              }
+                          ],
+               "tips":  [
+                            "星海广场看日落很美",
+                            "老虎滩建议玩一整天",
+                            "金石滩看地质公园"
+                        ]
+           },
+    "广州":  {
+               "attractions":  [
+                                   {
+                                       "name":  "广州塔",
+                                       "ticket":  150,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁3号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "海珠区滨江中路",
+                                       "miniProgram":  "广州塔",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "陈家祠",
+                                       "ticket":  10,
+                                       "duration":  "1-2小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "荔湾区中山七路",
+                                       "miniProgram":  "陈家祠",
+                                       "bookingTime":  "当日可买"
+                                   },
+                                   {
+                                       "name":  "沙面",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "荔湾区沙面街",
+                                       "miniProgram":  "沙面",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "北京路步行街",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "越秀区北京路",
+                                       "miniProgram":  "北京路",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "长隆野生动物世界",
+                                       "ticket":  350,
+                                       "duration":  "6-8小时",
+                                       "commute":  "地铁APM线",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "番禺区香江大道",
+                                       "miniProgram":  "长隆旅游",
+                                       "bookingTime":  "提前1天购票"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "早茶（点都德）",
+                                 "cost":  80,
+                                 "location":  "多家分店"
+                             },
+                             {
+                                 "name":  "烧腊（禄运记）",
+                                 "cost":  50,
+                                 "location":  "越秀区"
+                             },
+                             {
+                                 "name":  "云吞面",
+                                 "cost":  30,
+                                 "location":  "荔湾区"
+                             },
+                             {
+                                 "name":  "煲仔饭",
+                                 "cost":  40,
+                                 "location":  "越秀区"
+                             },
+                             {
+                                 "name":  "糖水（开记甜品）",
+                                 "cost":  25,
+                                 "location":  "荔湾区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "广州花园酒店",
+                                  "price":  680,
+                                  "address":  "广州市越秀区环市东路368号",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "广州白天鹅宾馆",
+                                  "price":  980,
+                                  "address":  "广州市荔湾区沙面南街1号",
+                                  "rating":  4.7
+                              },
+                              {
+                                  "name":  "广州中国大酒店",
+                                  "price":  480,
+                                  "address":  "广州市越秀区流花路122号",
+                                  "rating":  4.3
+                              }
+                          ],
+               "tips":  [
+                            "早茶建议早上7-9点去",
+                            "北京路人多，注意保管财物",
+                            "长隆建议玩一整天"
+                        ]
+           },
+    "张家界":  {
+                "attractions":  [
+                                    {
+                                        "name":  "张家界国家森林公园",
+                                        "ticket":  225,
+                                        "duration":  "全天",
+                                        "commute":  "公交",
+                                        "commuteTime":  "10分钟",
+                                        "address":  "武陵源区森林公园",
+                                        "miniProgram":  "张家界国家森林公园",
+                                        "bookingTime":  "提前1天购票"
+                                    },
+                                    {
+                                        "name":  "天门山",
+                                        "ticket":  278,
+                                        "duration":  "5-6小时",
+                                        "commute":  "打车",
+                                        "commuteTime":  "30分钟",
+                                        "address":  "永定区天门山路",
+                                        "miniProgram":  "天门山国家森林公园",
+                                        "bookingTime":  "提前1天购票"
+                                    },
+                                    {
+                                        "name":  "芙蓉镇",
+                                        "ticket":  116,
+                                        "duration":  "3-4小时",
+                                        "commute":  "大巴",
+                                        "commuteTime":  "1小时",
+                                        "address":  "永顺县芙蓉镇",
+                                        "miniProgram":  "芙蓉镇",
+                                        "bookingTime":  "提前1天预约"
+                                    },
+                                    {
+                                        "name":  "凤凰古城",
+                                        "ticket":  0,
+                                        "duration":  "4-5小时",
+                                        "commute":  "大巴",
+                                        "commuteTime":  "1.5小时",
+                                        "address":  "湘西州凤凰县",
+                                        "miniProgram":  "凤凰古城",
+                                        "bookingTime":  "免费开放"
+                                    },
+                                    {
+                                        "name":  "七十二奇楼",
+                                        "ticket":  0,
+                                        "duration":  "2小时",
+                                        "commute":  "公交",
+                                        "commuteTime":  "10分钟",
+                                        "address":  "永定区",
+                                        "miniProgram":  "七十二奇楼",
+                                        "bookingTime":  "免费开放"
+                                    }
+                                ],
+                "foods":  [
+                              {
+                                  "name":  "三下锅",
+                                  "cost":  60,
+                                  "location":  "永定区"
+                              },
+                              {
+                                  "name":  "土家腊肉",
+                                  "cost":  50,
+                                  "location":  "武陵源区"
+                              },
+                              {
+                                  "name":  "血粑鸭",
+                                  "cost":  55,
+                                  "location":  "永定区"
+                              },
+                              {
+                                  "name":  "合渣",
+                                  "cost":  25,
+                                  "location":  "永定区"
+                              },
+                              {
+                                  "name":  "米粉",
+                                  "cost":  15,
+                                  "location":  "各区"
+                              }
+                          ],
+                "hotels":  [
+                               {
+                                   "name":  "张家界纳格兰度假酒店",
+                                   "price":  580,
+                                   "address":  "张家界市武陵源区索溪峪",
+                                   "rating":  4.4
+                               },
+                               {
+                                   "name":  "张家界阳光酒店",
+                                   "price":  480,
+                                   "address":  "张家界市武陵源区大庸路",
+                                   "rating":  4.3
+                               },
+                               {
+                                   "name":  "张家界京武天池酒店",
+                                   "price":  780,
+                                   "address":  "张家界市武陵源区茅岩河路",
+                                   "rating":  4.5
+                               }
+                           ],
+                "tips":  [
+                             "森林公园需要玩2-3天",
+                             "天门山建议坐索道上去",
+                             "芙蓉镇和凤凰可以一起游玩"
+                         ]
+            },
+    "成都":  {
+               "attractions":  [
+                                   {
+                                       "name":  "大熊猫繁育研究基地",
+                                       "ticket":  55,
+                                       "duration":  "3-4小时",
+                                       "commute":  "公交成彭专线",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "成华区熊猫大道1375号",
+                                       "miniProgram":  "成都大熊猫基地",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "宽窄巷子",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁4号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "青羊区长顺街",
+                                       "miniProgram":  "宽窄巷子",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "武侯祠",
+                                       "ticket":  50,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁3号线",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "武侯区武侯祠大街",
+                                       "miniProgram":  "武侯祠",
+                                       "bookingTime":  "当日可买"
+                                   },
+                                   {
+                                       "name":  "锦里古街",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "武侯区靖安东巷",
+                                       "miniProgram":  "锦里",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "杜甫草堂",
+                                       "ticket":  60,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "青羊区青华路38号",
+                                       "miniProgram":  "杜甫草堂",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "火锅（小龙坎）",
+                                 "cost":  120,
+                                 "location":  "多家分店"
+                             },
+                             {
+                                 "name":  "串串香（冒椒火辣）",
+                                 "cost":  80,
+                                 "location":  "锦江区"
+                             },
+                             {
+                                 "name":  "担担面",
+                                 "cost":  15,
+                                 "location":  "市区各处"
+                             },
+                             {
+                                 "name":  "龙抄手",
+                                 "cost":  25,
+                                 "location":  "春熙路"
+                             },
+                             {
+                                 "name":  "夫妻肺片",
+                                 "cost":  40,
+                                 "location":  "人民公园附近"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "成都博舍酒店安缦系列",
+                                  "price":  1680,
+                                  "address":  "成都市锦江区春熙路科甲巷8号",
+                                  "rating":  4.8
+                              },
+                              {
+                                  "name":  "成都尼依格酒店",
+                                  "price":  1280,
+                                  "address":  "成都市锦江区红星路三段1号",
+                                  "rating":  4.7
+                              },
+                              {
+                                  "name":  "成都银禧宾馆",
+                                  "price":  398,
+                                  "address":  "成都市武侯区领事馆路9号",
+                                  "rating":  4.2
+                              }
+                          ],
+               "tips":  [
+                            "火锅建议提前排队",
+                            "宽窄巷子周末人多建议早上去",
+                            "大熊猫基地建议8点前到"
+                        ]
+           },
+    "昆明":  {
+               "attractions":  [
+                                   {
+                                       "name":  "滇池",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "西山区滇池路",
+                                       "miniProgram":  "滇池",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "石林风景区",
+                                       "ticket":  130,
+                                       "duration":  "4-5小时",
+                                       "commute":  "大巴",
+                                       "commuteTime":  "1小时",
+                                       "address":  "石林县石林镇",
+                                       "miniProgram":  "石林风景区",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "翠湖公园",
+                                       "ticket":  0,
+                                       "duration":  "1-2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "五华区翠湖南路",
+                                       "miniProgram":  "翠湖",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "云南大学",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "五华区翠湖南路",
+                                       "miniProgram":  "云南大学",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "西山龙门",
+                                       "ticket":  40,
+                                       "duration":  "3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "西山区西山风景区",
+                                       "miniProgram":  "西山风景区",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "过桥米线",
+                                 "cost":  40,
+                                 "location":  "五华区"
+                             },
+                             {
+                                 "name":  "汽锅鸡",
+                                 "cost":  80,
+                                 "location":  "五华区"
+                             },
+                             {
+                                 "name":  "野生菌火锅",
+                                 "cost":  150,
+                                 "location":  "五华区"
+                             },
+                             {
+                                 "name":  "饵块",
+                                 "cost":  15,
+                                 "location":  "各区"
+                             },
+                             {
+                                 "name":  "鲜花饼",
+                                 "cost":  30,
+                                 "location":  "五华区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "昆明翠湖边酒店",
+                                  "price":  480,
+                                  "address":  "昆明市五华区翠湖南路",
+                                  "rating":  4.3
+                              },
+                              {
+                                  "name":  "昆明滇池 Hotel",
+                                  "price":  780,
+                                  "address":  "昆明市西山区滇池路",
+                                  "rating":  4.4
+                              },
+                              {
+                                  "name":  "昆明洲际酒店",
+                                  "price":  1080,
+                                  "address":  "昆明市盘龙区环城北路",
+                                  "rating":  4.6
+                              }
+                          ],
+               "tips":  [
+                            "石林建议包车前往",
+                            "过桥米线推荐建新园",
+                            "野生菌季节是6-9月"
+                        ]
+           },
+    "杭州":  {
+               "attractions":  [
+                                   {
+                                       "name":  "西湖",
+                                       "ticket":  0,
+                                       "duration":  "3-4小时",
+                                       "commute":  "公交/骑行",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "西湖区龙井路",
+                                       "miniProgram":  "西湖旅游",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "灵隐寺",
+                                       "ticket":  75,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交K7",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "西湖区灵隐路",
+                                       "miniProgram":  "灵隐寺",
+                                       "bookingTime":  "当日可买"
+                                   },
+                                   {
+                                       "name":  "雷峰塔",
+                                       "ticket":  40,
+                                       "duration":  "1-2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "西湖区夕照山",
+                                       "miniProgram":  "雷峰塔",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "西溪湿地",
+                                       "ticket":  80,
+                                       "duration":  "3-4小时",
+                                       "commute":  "地铁",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "西湖区天目山路",
+                                       "miniProgram":  "西溪湿地",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "龙井村",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "25分钟",
+                                       "address":  "西湖区龙井村",
+                                       "miniProgram":  "龙井村",
+                                       "bookingTime":  "免费开放"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "西湖醋鱼（楼外楼）",
+                                 "cost":  120,
+                                 "location":  "西湖边"
+                             },
+                             {
+                                 "name":  "东坡肉（知味观）",
+                                 "cost":  60,
+                                 "location":  "上城区"
+                             },
+                             {
+                                 "name":  "龙井虾仁",
+                                 "cost":  80,
+                                 "location":  "西湖区"
+                             },
+                             {
+                                 "name":  "片儿川",
+                                 "cost":  25,
+                                 "location":  "市区"
+                             },
+                             {
+                                 "name":  "定胜糕",
+                                 "cost":  10,
+                                 "location":  "河坊街"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "杭州西湖湖滨银泰inn7酒店",
+                                  "price":  480,
+                                  "address":  "杭州市上城区延安路520号",
+                                  "rating":  4.3
+                              },
+                              {
+                                  "name":  "杭州西子湖四季酒店",
+                                  "price":  2580,
+                                  "address":  "杭州市西湖区灵隐路5号",
+                                  "rating":  4.9
+                              },
+                              {
+                                  "name":  "杭州君悦酒店",
+                                  "price":  1080,
+                                  "address":  "杭州市江干区解放东路18号",
+                                  "rating":  4.6
+                              }
+                          ],
+               "tips":  [
+                            "西湖建议租自行车环湖",
+                            "龙井村喝茶需避开节假日",
+                            "雷峰塔建议傍晚登塔看日落"
+                        ]
+           },
+    "桂林":  {
+               "attractions":  [
+                                   {
+                                       "name":  "漓江竹筏",
+                                       "ticket":  215,
+                                       "duration":  "4小时",
+                                       "commute":  "大巴",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "七星区漓江码头",
+                                       "miniProgram":  "漓江游船",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "象鼻山",
+                                       "ticket":  75,
+                                       "duration":  "1-2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "象山区滨江路",
+                                       "miniProgram":  "象鼻山",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "两江四湖",
+                                       "ticket":  215,
+                                       "duration":  "2小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "秀峰区杉湖北路",
+                                       "miniProgram":  "两江四湖",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "七星公园",
+                                       "ticket":  65,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "七星区七星路",
+                                       "miniProgram":  "七星公园",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "银子岩",
+                                       "ticket":  60,
+                                       "duration":  "2小时",
+                                       "commute":  "大巴",
+                                       "commuteTime":  "40分钟",
+                                       "address":  "荔浦县",
+                                       "miniProgram":  "银子岩",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "桂林米粉",
+                                 "cost":  15,
+                                 "location":  "各区"
+                             },
+                             {
+                                 "name":  "啤酒鱼（阳朔）",
+                                 "cost":  80,
+                                 "location":  "阳朔县"
+                             },
+                             {
+                                 "name":  "马蹄糕",
+                                 "cost":  10,
+                                 "location":  "秀峰区"
+                             },
+                             {
+                                 "name":  "桂林粽子",
+                                 "cost":  20,
+                                 "location":  "各区"
+                             },
+                             {
+                                 "name":  "油茶",
+                                 "cost":  25,
+                                 "location":  "象山区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "桂林漓江大瀑布酒店",
+                                  "price":  480,
+                                  "address":  "桂林市象山区正阳中路1号",
+                                  "rating":  4.3
+                              },
+                              {
+                                  "name":  "桂林香格里拉酒店",
+                                  "price":  780,
+                                  "address":  "桂林市象山区环城北二路111号",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "桂林榕湖饭店",
+                                  "price":  580,
+                                  "address":  "桂林市秀峰区奉政路5号",
+                                  "rating":  4.4
+                              }
+                          ],
+               "tips":  [
+                            "漓江建议坐竹筏",
+                            "阳朔西街晚上很热闹",
+                            "米粉建议去小店吃"
+                        ]
+           },
+    "武汉":  {
+               "attractions":  [
+                                   {
+                                       "name":  "黄鹤楼",
+                                       "ticket":  70,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁5号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "武昌区蛇山西山坡",
+                                       "miniProgram":  "黄鹤楼",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "东湖",
+                                       "ticket":  0,
+                                       "duration":  "3-4小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "武昌区东湖路",
+                                       "miniProgram":  "东湖风景区",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "湖北省博物馆",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁8号线",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "武昌区东湖路",
+                                       "miniProgram":  "湖北省博物馆",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "汉口江滩",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "江岸区沿江大道",
+                                       "miniProgram":  "汉口江滩",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "粮道街",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁5号线",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "武昌区粮道街",
+                                       "miniProgram":  "粮道街",
+                                       "bookingTime":  "免费开放"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "热干面（蔡林记）",
+                                 "cost":  15,
+                                 "location":  "多家分店"
+                             },
+                             {
+                                 "name":  "豆皮（老通城）",
+                                 "cost":  25,
+                                 "location":  "江汉区"
+                             },
+                             {
+                                 "name":  "鸭脖（精武路）",
+                                 "cost":  30,
+                                 "location":  "江汉区"
+                             },
+                             {
+                                 "name":  "藕汤",
+                                 "cost":  50,
+                                 "location":  "武昌区"
+                             },
+                             {
+                                 "name":  "烧麦（重油烧麦）",
+                                 "cost":  20,
+                                 "location":  "江岸区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "武汉新华诺顿大酒店",
+                                  "price":  580,
+                                  "address":  "武汉市江汉区新华路218号",
+                                  "rating":  4.4
+                              },
+                              {
+                                  "name":  "武汉光谷凯悦酒店",
+                                  "price":  980,
+                                  "address":  "武汉市洪山区珞喻路889号",
+                                  "rating":  4.6
+                              },
+                              {
+                                  "name":  "武汉东湖宾馆",
+                                  "price":  680,
+                                  "address":  "武汉市武昌区东湖路1号",
+                                  "rating":  4.5
+                              }
+                          ],
+               "tips":  [
+                            "热干面建议早餐吃",
+                            "省博周一闭馆",
+                            "东湖很大，建议租自行车"
+                        ]
+           },
+    "深圳":  {
+               "attractions":  [
+                                   {
+                                       "name":  "华侨城欢乐谷",
+                                       "ticket":  280,
+                                       "duration":  "6-8小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "南山区侨城东路",
+                                       "miniProgram":  "欢乐谷",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "世界之窗",
+                                       "ticket":  220,
+                                       "duration":  "4-6小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "南山区侨城西街",
+                                       "miniProgram":  "世界之窗",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "东部华侨城",
+                                       "ticket":  220,
+                                       "duration":  "6-8小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "盐田区大梅沙",
+                                       "miniProgram":  "东部华侨城",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "外滩",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "福田区福中路",
+                                       "miniProgram":  "深圳湾公园",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "梧桐山",
+                                       "ticket":  0,
+                                       "duration":  "3-4小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "罗湖区梧桐路",
+                                       "miniProgram":  "梧桐山",
+                                       "bookingTime":  "免费开放"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "粤菜（避风塘）",
+                                 "cost":  120,
+                                 "location":  "南山区"
+                             },
+                             {
+                                 "name":  "港式点心",
+                                 "cost":  80,
+                                 "location":  "福田区"
+                             },
+                             {
+                                 "name":  "肠粉",
+                                 "cost":  20,
+                                 "location":  "各区"
+                             },
+                             {
+                                 "name":  "烧鹅",
+                                 "cost":  60,
+                                 "location":  "罗湖区"
+                             },
+                             {
+                                 "name":  "奶茶（奈雪）",
+                                 "cost":  30,
+                                 "location":  "各区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "深圳福田香格里拉大酒店",
+                                  "price":  780,
+                                  "address":  "深圳市福田区中心三路8号",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "深圳湾希尔顿逸林酒店",
+                                  "price":  1080,
+                                  "address":  "深圳市南山区海月路",
+                                  "rating":  4.6
+                              },
+                              {
+                                  "name":  "深圳华侨城洲际大酒店",
+                                  "price":  880,
+                                  "address":  "深圳市南山区深南大道9003号",
+                                  "rating":  4.5
+                              }
+                          ],
+               "tips":  [
+                            "欢乐谷建议工作日去",
+                            "梧桐山适合新手登山",
+                            "深圳天气热，注意防晒"
+                        ]
+           },
+    "苏州":  {
+               "attractions":  [
+                                   {
+                                       "name":  "拙政园",
+                                       "ticket":  70,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "姑苏区东北街",
+                                       "miniProgram":  "拙政园",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "狮子林",
+                                       "ticket":  30,
+                                       "duration":  "1-2小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "姑苏区园林路",
+                                       "miniProgram":  "狮子林",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "平江路",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "姑苏区平江路",
+                                       "miniProgram":  "平江路",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "虎丘",
+                                       "ticket":  60,
+                                       "duration":  "2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "姑苏区虎丘山",
+                                       "miniProgram":  "虎丘",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "周庄古镇",
+                                       "ticket":  100,
+                                       "duration":  "3-4小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "40分钟",
+                                       "address":  "昆山市周庄镇",
+                                       "miniProgram":  "周庄",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "松鼠鳜鱼",
+                                 "cost":  80,
+                                 "location":  "松鹤楼"
+                             },
+                             {
+                                 "name":  "响油鳝糊",
+                                 "cost":  60,
+                                 "location":  "松鹤楼"
+                             },
+                             {
+                                 "name":  "生煎馒头",
+                                 "cost":  20,
+                                 "location":  "平江路"
+                             },
+                             {
+                                 "name":  "桂花糖粥",
+                                 "cost":  15,
+                                 "location":  "平江路"
+                             },
+                             {
+                                 "name":  "大闸蟹",
+                                 "cost":  100,
+                                 "location":  "秋季"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "苏州吴宫泛太平洋酒店",
+                                  "price":  680,
+                                  "address":  "苏州市姑苏区爱国路168号",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "苏州柏悦酒店",
+                                  "price":  1280,
+                                  "address":  "苏州市姑苏区东北街158号",
+                                  "rating":  4.7
+                              },
+                              {
+                                  "name":  "苏州金鸡湖亚洲湾大酒店",
+                                  "price":  480,
+                                  "address":  "苏州市吴中区星阳街588号",
+                                  "rating":  4.3
+                              }
+                          ],
+               "tips":  [
+                            "拙政园建议早上去",
+                            "平江路适合傍晚逛",
+                            "周庄晚上更美"
+                        ]
+           },
+    "西安":  {
+               "attractions":  [
+                                   {
+                                       "name":  "秦始皇兵马俑",
+                                       "ticket":  120,
+                                       "duration":  "3-4小时",
+                                       "commute":  "公交306路",
+                                       "commuteTime":  "40分钟",
+                                       "address":  "临潼区秦陵北路",
+                                       "miniProgram":  "秦始皇帝陵博物院",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "古城墙",
+                                       "ticket":  54,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "新城区南大街",
+                                       "miniProgram":  "西安古城墙",
+                                       "bookingTime":  "当日可买"
+                                   },
+                                   {
+                                       "name":  "大雁塔",
+                                       "ticket":  30,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁3号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "雁塔区大雁塔北广场",
+                                       "miniProgram":  "大雁塔",
+                                       "bookingTime":  "当日可买"
+                                   },
+                                   {
+                                       "name":  "回民街",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁2号线",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "莲湖区北大街",
+                                       "miniProgram":  "回民街",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "华清池",
+                                       "ticket":  120,
+                                       "duration":  "3小时",
+                                       "commute":  "公交306路",
+                                       "commuteTime":  "40分钟",
+                                       "address":  "临潼区秦唐大道",
+                                       "miniProgram":  "华清宫",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "肉夹馍（魏家凉皮）",
+                                 "cost":  35,
+                                 "location":  "全城连锁"
+                             },
+                             {
+                                 "name":  "羊肉泡馍（老米家）",
+                                 "cost":  60,
+                                 "location":  "回民街"
+                             },
+                             {
+                                 "name":  "BiángBiáng面",
+                                 "cost":  25,
+                                 "location":  "回民街"
+                             },
+                             {
+                                 "name":  "凉皮",
+                                 "cost":  20,
+                                 "location":  "全城"
+                             },
+                             {
+                                 "name":  "酸梅汤",
+                                 "cost":  10,
+                                 "location":  "回民街"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "西安索菲特传奇大酒店",
+                                  "price":  780,
+                                  "address":  "西安市碑林区南大街",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "西安W酒店",
+                                  "price":  1480,
+                                  "address":  "西安市高新区唐延路",
+                                  "rating":  4.7
+                              },
+                              {
+                                  "name":  "西安君乐城堡酒店",
+                                  "price":  480,
+                                  "address":  "西安市雁塔区芙蓉东路",
+                                  "rating":  4.3
+                              }
+                          ],
+               "tips":  [
+                            "兵马俑建议请讲解员",
+                            "回民街游客多洒金桥更地道",
+                            "城墙建议傍晚骑行"
+                        ]
+           },
+    "重庆":  {
+               "attractions":  [
+                                   {
+                                       "name":  "洪崖洞",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "渝中区滨江路",
+                                       "miniProgram":  "洪崖洞",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "磁器口古镇",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "沙坪坝区磁器口",
+                                       "miniProgram":  "磁器口",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "解放碑",
+                                       "ticket":  0,
+                                       "duration":  "1小时",
+                                       "commute":  "地铁1/2号线",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "渝中区解放碑",
+                                       "miniProgram":  "解放碑",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "长江索道",
+                                       "ticket":  20,
+                                       "duration":  "1小时",
+                                       "commute":  "地铁1号线",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "渝中区新华路",
+                                       "miniProgram":  "长江索道",
+                                       "bookingTime":  "当日可买"
+                                   },
+                                   {
+                                       "name":  "武隆天生三桥",
+                                       "ticket":  135,
+                                       "duration":  "4-5小时",
+                                       "commute":  "大巴",
+                                       "commuteTime":  "2小时",
+                                       "address":  "武隆区",
+                                       "miniProgram":  "武隆旅游",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "火锅（周师兄）",
+                                 "cost":  120,
+                                 "location":  "各区"
+                             },
+                             {
+                                 "name":  "小面（花市豌杂面）",
+                                 "cost":  20,
+                                 "location":  "渝中区"
+                             },
+                             {
+                                 "name":  "酸辣粉",
+                                 "cost":  15,
+                                 "location":  "磁器口"
+                             },
+                             {
+                                 "name":  "毛血旺",
+                                 "cost":  60,
+                                 "location":  "渝中区"
+                             },
+                             {
+                                 "name":  "挑挑面",
+                                 "cost":  18,
+                                 "location":  "沙坪坝区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "重庆解放碑威斯汀酒店",
+                                  "price":  680,
+                                  "address":  "重庆市渝中区解放碑步行街",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "重庆尼依格酒店",
+                                  "price":  1180,
+                                  "address":  "重庆市渝中区观音桥步行街",
+                                  "rating":  4.7
+                              },
+                              {
+                                  "name":  "重庆洪崖洞最佳远方精品酒店",
+                                  "price":  380,
+                                  "address":  "重庆市渝中区解放碑洪崖洞",
+                                  "rating":  4.3
+                              }
+                          ],
+               "tips":  [
+                            "洪崖洞晚上开灯更美",
+                            "火锅很辣，做好心理准备",
+                            "重庆是山城，走路多穿舒适的鞋"
+                        ]
+           },
+    "青岛":  {
+               "attractions":  [
+                                   {
+                                       "name":  "崂山风景区",
+                                       "ticket":  100,
+                                       "duration":  "4-5小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "崂山区崂山路",
+                                       "miniProgram":  "崂山风景区",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "栈桥",
+                                       "ticket":  0,
+                                       "duration":  "1-2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "10分钟",
+                                       "address":  "市南区中山路",
+                                       "miniProgram":  "栈桥",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "八大关",
+                                       "ticket":  0,
+                                       "duration":  "2-3小时",
+                                       "commute":  "步行",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "市南区八大关",
+                                       "miniProgram":  "八大关",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "五四广场",
+                                       "ticket":  0,
+                                       "duration":  "1小时",
+                                       "commute":  "地铁3号线",
+                                       "commuteTime":  "5分钟",
+                                       "address":  "市南区五四广场",
+                                       "miniProgram":  "五四广场",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "啤酒博物馆",
+                                       "ticket":  60,
+                                       "duration":  "2小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "市北区登州路",
+                                       "miniProgram":  "青岛啤酒博物馆",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "青岛啤酒（原浆）",
+                                 "cost":  30,
+                                 "location":  "啤酒街"
+                             },
+                             {
+                                 "name":  "蛤蜊（gala）",
+                                 "cost":  50,
+                                 "location":  "市南区"
+                             },
+                             {
+                                 "name":  "鲅鱼水饺",
+                                 "cost":  40,
+                                 "location":  "市南区"
+                             },
+                             {
+                                 "name":  "海鲜大餐",
+                                 "cost":  120,
+                                 "location":  "即墨路"
+                             },
+                             {
+                                 "name":  "野馄饨",
+                                 "cost":  30,
+                                 "location":  "市区各处"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "青岛海天大酒店",
+                                  "price":  680,
+                                  "address":  "青岛市崂山区苗岭路15号",
+                                  "rating":  4.5
+                              },
+                              {
+                                  "name":  "青岛海尔洲际酒店",
+                                  "price":  980,
+                                  "address":  "青岛市崂山区梅岭路2号",
+                                  "rating":  4.6
+                              },
+                              {
+                                  "name":  "青岛栈桥王子酒店",
+                                  "price":  380,
+                                  "address":  "青岛市市南区贵州路2号",
+                                  "rating":  4.2
+                              }
+                          ],
+               "tips":  [
+                            "崂山建议玩一天",
+                            "啤酒节一般在8月",
+                            "海鲜建议去市场自己买加工"
+                        ]
+           },
+    "黄山":  {
+               "attractions":  [
+                                   {
+                                       "name":  "黄山风景区",
+                                       "ticket":  190,
+                                       "duration":  "全天",
+                                       "commute":  "大巴",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "黄山区黄山风景区",
+                                       "miniProgram":  "黄山旅游官方平台",
+                                       "bookingTime":  "提前1天购票"
+                                   },
+                                   {
+                                       "name":  "宏村",
+                                       "ticket":  104,
+                                       "duration":  "3-4小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "30分钟",
+                                       "address":  "黟县宏村镇",
+                                       "miniProgram":  "宏村",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "西递",
+                                       "ticket":  104,
+                                       "duration":  "2-3小时",
+                                       "commute":  "公交",
+                                       "commuteTime":  "20分钟",
+                                       "address":  "黟县西递镇",
+                                       "miniProgram":  "西递",
+                                       "bookingTime":  "提前1天预约"
+                                   },
+                                   {
+                                       "name":  "屯溪老街",
+                                       "ticket":  0,
+                                       "duration":  "2小时",
+                                       "commute":  "打车",
+                                       "commuteTime":  "15分钟",
+                                       "address":  "屯溪区老街",
+                                       "miniProgram":  "屯溪老街",
+                                       "bookingTime":  "免费开放"
+                                   },
+                                   {
+                                       "name":  "九华山",
+                                       "ticket":  160,
+                                       "duration":  "1天",
+                                       "commute":  "大巴",
+                                       "commuteTime":  "1.5小时",
+                                       "address":  "青阳县九华山",
+                                       "miniProgram":  "九华山",
+                                       "bookingTime":  "提前1天预约"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "name":  "黄山炖鸽",
+                                 "cost":  60,
+                                 "location":  "黄山区"
+                             },
+                             {
+                                 "name":  "刀板香",
+                                 "cost":  45,
+                                 "location":  "黄山区"
+                             },
+                             {
+                                 "name":  "毛豆腐",
+                                 "cost":  20,
+                                 "location":  "屯溪区"
+                             },
+                             {
+                                 "name":  "臭鳜鱼",
+                                 "cost":  55,
+                                 "location":  "黄山区"
+                             },
+                             {
+                                 "name":  "石耳炖鸡",
+                                 "cost":  50,
+                                 "location":  "黄山区"
+                             }
+                         ],
+               "hotels":  [
+                              {
+                                  "name":  "黄山高尔夫豪华养生度假酒店",
+                                  "price":  680,
+                                  "address":  "黄山市黄山区温泉路",
+                                  "rating":  4.4
+                              },
+                              {
+                                  "name":  "黄山白云宾馆",
+                                  "price":  580,
+                                  "address":  "黄山市黄山区白云景区",
+                                  "rating":  4.3
+                              },
+                              {
+                                  "name":  "黄山世纪豪生大酒店",
+                                  "price":  480,
+                                  "address":  "黄山市屯溪区迎宾大道",
+                                  "rating":  4.2
+                              }
+                          ],
+               "tips":  [
+                            "黄山建议住山上看过日出",
+                            "宏村适合下午去",
+                            "九华山是佛教圣地"
+                        ]
+           },
+    "长沙":  {
+               "attractions":  [
+                                   {
+                                       "name":  "岳麓书院",
+                                       "ticket":  40,
+                                       "bookingTime":  "当日可买",
+                                       "miniProgram":  "岳麓书院",
+                                       "duration":  "2-3小时",
+                                       "address":  "长沙市岳麓区岳麓山路",
+                                       "commuteTime":  "15分钟"
+                                   },
+                                   {
+                                       "name":  "橘子洲头",
+                                       "ticket":  0,
+                                       "bookingTime":  "免费开放",
+                                       "miniProgram":  "橘子洲景区",
+                                       "duration":  "2小时",
+                                       "address":  "长沙市岳麓区橘子洲",
+                                       "commuteTime":  "20分钟"
+                                   },
+                                   {
+                                       "name":  "湖南博物院",
+                                       "ticket":  0,
+                                       "bookingTime":  "提前预约",
+                                       "miniProgram":  "湖南博物院",
+                                       "duration":  "2-3小时",
+                                       "address":  "长沙市开福区东风路",
+                                       "commuteTime":  "15分钟"
+                                   },
+                                   {
+                                       "name":  "五一广场",
+                                       "ticket":  0,
+                                       "bookingTime":  "免费开放",
+                                       "miniProgram":  "",
+                                       "duration":  "2小时",
+                                       "address":  "长沙市芙蓉区五一广场",
+                                       "commuteTime":  "10分钟"
+                                   },
+                                   {
+                                       "name":  "大王山旅游度假区",
+                                       "ticket":  280,
+                                       "bookingTime":  "提前1天购票",
+                                       "miniProgram":  "大王山度假区",
+                                       "duration":  "4-5小时",
+                                       "address":  "长沙市岳麓区桐溪寺",
+                                       "commuteTime":  "30分钟"
+                                   }
+                               ],
+               "foods":  [
+                             {
+                                 "cost":  25,
+                                 "recommendation":  "长沙奶茶首选",
+                                 "name":  "长沙茶颜悦色",
+                                 "location":  "五一广场"
+                             },
+                             {
+                                 "cost":  30,
+                                 "recommendation":  "正宗长沙臭豆腐",
+                                 "name":  "火宫殿臭豆腐",
+                                 "location":  "坡子街"
+                             },
+                             {
+                                 "cost":  120,
+                                 "recommendation":  "长沙小龙虾代表",
+                                 "name":  "口味虾（文和友）",
+                                 "location":  "海信广场"
+                             },
+                             {
+                                 "cost":  25,
+                                 "recommendation":  "长沙早餐首选",
+                                 "name":  "米粉（又粉了）",
+                                 "location":  "各区"
+                             },
+                             {
+                                 "cost":  80,
+                                 "recommendation":  "正宗湘菜",
+                                 "name":  "湘菜（费大厨）",
+                                 "location":  "五一广场"
+                             }
+                         ],
+               "tips":  [
+                            "五一广场是美食聚集地，晚上更热闹",
+                            "岳麓山建议下午去，可以看日落",
+                            "茶颜悦色长沙随处可见，不用排队",
+                            "夏季长沙很热，注意防晒"
+                        ]
+           }
+}
