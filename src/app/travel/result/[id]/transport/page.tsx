@@ -178,9 +178,7 @@ export default function TransportPage() {
             <div className="flex justify-between items-center">
               <div>
                 <p className="text-sm text-mostar-stone">大交通总费用</p>
-                <p className="text-3xl font-display font-bold text-mostar-warm mt-1">
-                  ¥{transportData.find(t => t.id === selectedTransport)?.price * totalPeople || 0}
-                </p>
+                <p className="text-3xl font-display font-bold text-mostar-warm mt-1">                  ¥{((transportData.find(t => t.id === selectedTransport) || {} as any).price || 0) * totalPeople || 0}                </p>
               </div>
               <Link href={`/travel/result/${params.id}/hotel`} className="btn-cinematic px-10 py-4 text-lg">
                 下一步：酒店选择 →

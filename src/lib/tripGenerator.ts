@@ -1,4 +1,4 @@
-"use server"
+﻿"use server"
 import { prisma } from "@/lib/db"
 import { PRICE_RANGES } from "@/types"
 
@@ -69,7 +69,7 @@ export async function generateTrip(data: any) {
   }
   
   // 获取完整的行程数据
-  const fullTrip = await prisma.trip.findUnique({ where: { id: trip.id } })
+  const fullTrip = await prisma.trip.findUnique({ id: trip.id } as any)
   const savedHotels = hotelData
   const savedTransports = transportData
   const savedItineraryDays = itineraryData

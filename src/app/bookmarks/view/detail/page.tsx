@@ -30,9 +30,9 @@ export default function BookmarkViewPage() {
   }, [params.id])
   if (loading) return <div className="min-h-screen bg-mostar-cream flex items-center justify-center"><div className="text-center"><div className="text-4xl mb-4">★⭐</div><p className="text-mostar-stone">正在加载行程...</p></div></div>
   if (!trip) return null
-  const transportCost = (trip.transports || []).reduce((s, t) => s + (Number(t.price) || 0), 0)
+  const transportCost = (trip.transports || []).reduce((s: any, t: any) => s + (Number(t.price) || 0), 0)
   const hotelCost = (trip.hotels || []).length > 0 ? (Number(trip.hotels[0].price) || 300) * trip.days * Math.max(1, Math.ceil((trip.adultCount || 1) / 2)) : 300 * trip.days * Math.max(1, Math.ceil((trip.adultCount || 1) / 2))
-  const activityCost = dayPlans.reduce((s, d) => s + (Number(d.totalCost) || 0), 0)
+  const activityCost = dayPlans.reduce((s: any, d: any) => s + (Number(d.totalCost) || 0), 0)
   const totalCost = transportCost + hotelCost + activityCost
   return (
     <div className="min-h-screen bg-mostar-cream">
@@ -55,7 +55,7 @@ export default function BookmarkViewPage() {
               <div className="flex justify-between items-center py-2 border-b border-mostar-sand/20"><span className="text-mostar-stone">🎯 行程活动</span><span className="font-bold text-mostar-dark">¥{activityCost}</span></div>
               <div className="flex justify-between items-center py-3 pt-4 border-t-2 border-mostar-water/30"><span className="font-bold text-mostar-dark text-lg">总费用</span><span className="text-2xl font-bold text-mostar-water">¥{totalCost}</span></div>
             </div>
-            <p className="text-xs text-mostar-stone/60 mt-3">* 大交通={trip.fromCity}→{trip.toCity} · 酒店按{trip.roomType}||"舒适"}型估算</p>
+            <p className="text-xs text-mostar-stone/60 mt-3">* 大交通={trip.fromCity}→{trip.toCity} · 酒店按{trip.roomType||"舒适"}型估算</p>
           </div>
           <div className="bg-mostar-warm/10 rounded-xl p-6 mt-4">
             <h4 className="font-medium text-mostar-stone mb-3">⚠️ 出行注意事项</h4>

@@ -212,7 +212,7 @@ export default function ItineraryPage() {
               <div className="space-y-3">
                 <div className="flex justify-between items-center py-2 border-b border-mostar-sand/20">
                   <span className="text-mostar-stone">🚄 大交通往返</span>
-                  <span className="font-bold text-mostar-dark">¥{((trip.transports || []).reduce((s, t) => s + (Number(t.price) || 0), 0))}</span>
+                  <span className="font-bold text-mostar-dark">¥{((trip.transports || []).reduce((s: any, t: any) => s + (Number(t.price) || 0), 0))}</span>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-mostar-sand/20">
                   <span className="text-mostar-stone">🏨 酒店住宿</span>
@@ -220,11 +220,11 @@ export default function ItineraryPage() {
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-mostar-sand/20">
                   <span className="text-mostar-stone">🎯 行程活动（门票+餐饮+当地交通）</span>
-                  <span className="font-bold text-mostar-dark">¥{dayPlans.reduce((s, d) => s + (Number(d.totalCost) || 0), 0)}</span>
+                  <span className="font-bold text-mostar-dark">¥{dayPlans.reduce((s: any, d: any) => s + (Number(d.totalCost) || 0), 0)}</span>
                 </div>
                 <div className="flex justify-between items-center py-3 pt-4 border-t-2 border-mostar-water/30">
                   <span className="font-bold text-mostar-dark text-lg">总费用</span>
-                  <span className="text-2xl font-bold text-mostar-water">¥{((trip.transports || []).reduce((s, t) => s + (Number(t.price) || 0), 0)) + ((trip.hotels || []).length > 0 ? (Number(trip.hotels[0].price) || 300) * trip.days * Math.max(1, Math.ceil((trip.adultCount || 1) / 2)) : 300 * trip.days * Math.max(1, Math.ceil((trip.adultCount || 1) / 2))) + dayPlans.reduce((s, d) => s + (Number(d.totalCost) || 0), 0)}</span>
+                  <span className="text-2xl font-bold text-mostar-water">¥{((trip.transports || []).reduce((s: any, t: any) => s + (Number(t.price) || 0), 0)) + ((trip.hotels || []).length > 0 ? (Number(trip.hotels[0].price) || 300) * trip.days * Math.max(1, Math.ceil((trip.adultCount || 1) / 2)) : 300 * trip.days * Math.max(1, Math.ceil((trip.adultCount || 1) / 2))) + dayPlans.reduce((s: any, d: any) => s + (Number(d.totalCost) || 0), 0)}</span>
                 </div>
               </div>
               <p className="text-xs text-mostar-stone/60 mt-3">* 大交通={trip.fromCity}→{trip.toCity} · 酒店按{trip.roomType || '舒适'}型估算 · 活动费=景点门票+餐饮+当地交通</p>

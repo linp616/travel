@@ -1,4 +1,4 @@
-﻿import { readFileSync, writeFileSync, existsSync } from "fs"
+import { readFileSync, writeFileSync, existsSync } from "fs"
 import { join } from "path"
 import { randomBytes } from "crypto"
 
@@ -136,7 +136,7 @@ export const fileDb = {
       let list = [...d.trips]
       if (opts?.orderBy?.createdAt) {
         list.sort((a, b) => 
-          opts.orderBy.createdAt === "desc" ? b.createdAt.localeCompare(a.createdAt) : a.createdAt.localeCompare(b.createdAt)
+          opts.orderBy?.createdAt === "desc" ? b.createdAt.localeCompare(a.createdAt) : a.createdAt.localeCompare(b.createdAt)
         )
       }
       if (opts?.take) list = list.slice(0, opts.take)
@@ -217,7 +217,7 @@ export const fileDb = {
       const d = load()
       let list = d.itineraryDays.filter((i: any) => i.tripId === where.tripId)
       if (opts?.orderBy?.dayIndex) {
-        list.sort((a, b) => opts.orderBy.dayIndex === "desc" ? b.dayIndex - a.dayIndex : a.dayIndex - b.dayIndex)
+        list.sort((a, b) => opts.orderBy?.dayIndex === "desc" ? b.dayIndex - a.dayIndex : a.dayIndex - b.dayIndex)
       }
       return list
     }

@@ -1,2 +1,3 @@
-export { prisma } from './db'
-export default prisma
+import { prisma } from './db';
+export { prisma };
+export default prisma;
