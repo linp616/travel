@@ -15,7 +15,7 @@ export async function POST(req: Request) {
     if (!city) return NextResponse.json({ success: false, error: "Missing city" }, { status: 400 })
     const hotels = (REAL_HOTELS[city] || []).map((h: any) => ({ ...h, price: h.price1 }))
     if (tripId) {
-      await prisma.hotelRecommendation.deleteMany({ where: { tripId } })
+      await prisma.hotelRecommendation.deleteMany({ where: { tripId: tripId } } as any)
       for (const h of hotels) {
         await prisma.hotelRecommendation.create({ data: { id: randomBytes(12).toString("hex"), tripId, name: h.name, price: h.price, rating: h.rating, address: h.address, source: h.source, sourceLabel: h.sourceLabel, url: h.url, tag: h.tag, createdAt: getNow() } })
       }
