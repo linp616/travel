@@ -1,10 +1,10 @@
-import { NextResponse } from "next/server"
-import pool from "@/lib/db"
+﻿import { NextResponse } from "next/server"
+import { prisma } from "@/lib/db"
 import { randomBytes } from "crypto"
 
 function getNow() {
   const now = new Date()
-  return now.toISOString().replace(/T/, " ").replace(/\.\d{3}Z/, "")
+  return now.toISOString().replace(/T/, " ").replace(/\\\.\d{3}Z/, "")
 }
 
 export async function POST(req: Request) {
@@ -30,12 +30,9 @@ export async function POST(req: Request) {
     }))
 
     if (tripId) {
-      await pool.execute("DELETE FROM XhsNoteSummary WHERE tripId = ?", [tripId])
+      await prisma.xhsNoteSummary.deleteMany({ where: { tripId } } as any)
       for (const r of results) {
-        await pool.execute(
-          "INSERT INTO XhsNoteSummary (id, tripId, noteTitle, author, excerpt, tags, sourceUrl, createdAt) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-          [randomBytes(12).toString("hex"), tripId, r.title, r.author, r.excerpt, r.tags, r.sourceUrl, r.createdAt]
-        )
+        await prisma.xhsNoteSummary.create({ id: randomBytes(12).toString("hex"), tripId, ...r } as any)
       }
     }
     return NextResponse.json({ success: true, data: results })
