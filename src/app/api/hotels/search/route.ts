@@ -7,7 +7,7 @@ function getNow() {
 }
 
 const REAL_HOTELS: Record<string, any[]> = require("./cities-hotels.json")
-const DEFAULT_HOTELS = ["{city}鍥介檯澶ч厭搴? "{city}鐨囧啝鍋囨棩閰掑簵", "{city}涓囪豹閰掑簵"]
+const DEFAULT_HOTELS = ["{city}国际大酒店", "{city}皇冠假日酒店", "{city}万豪酒店"]
 
 export async function POST(req: Request) {
   try {
