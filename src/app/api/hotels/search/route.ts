@@ -17,7 +17,7 @@ export async function POST(req: Request) {
     if (tripId) {
       await prisma.hotelRecommendation.deleteMany({ where: { tripId: tripId } } as any)
       for (const h of hotels) {
-        await prisma.hotelRecommendation.create({ data: { id: randomBytes(12).toString("hex"), tripId, name: h.name, price: h.price, rating: h.rating, address: h.address, source: h.source, sourceLabel: h.sourceLabel, url: h.url, tag: h.tag, createdAt: getNow() } })
+        await prisma.hotelRecommendation.create({ randomBytes(12).toString("hex"), tripId, name: h.name, price: h.price, rating: h.rating, address: h.address, source: h.source, sourceLabel: h.sourceLabel, url: h.url, tag: h.tag, createdAt: getNow() } })
       }
     }
     return NextResponse.json({ success: true, data: hotels })
