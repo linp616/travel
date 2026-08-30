@@ -119,7 +119,7 @@ export const fileDb = {
         toCity: "",
         startDate: "",
         preferences: "[]",
-        roomType: "鑸掗€?,
+        roomType: "舒适",
         extraRequirements: "",
         ...data
       }
@@ -249,7 +249,8 @@ export const fileDb = {
   }
 }
 
-// 瀵煎嚭涓€涓?prisma 鍏煎鐨勫璞?export const prisma = {
+// Export prisma compatible object
+export const prisma = {
   trip: fileDb.trip,
   hotelRecommendation: fileDb.hotelRecommendation,
   transportRecommendation: fileDb.transportRecommendation,
