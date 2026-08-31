@@ -62,6 +62,14 @@ function generateXhsNotes(city: string, preferences: string[], days: number) {
   ]
 }
 
+export async function GET() {
+  try {
+    return NextResponse.json({ success: true, data: tripData.trips })
+  } catch (e: any) {
+    return NextResponse.json({ success: false, error: e.message }, { status: 500 })
+  }
+}
+
 export async function POST(req: Request) {
   try {
     const data = await req.json()
@@ -93,6 +101,7 @@ export async function GET() {
     return NextResponse.json({ success: false, error: e.message }, { status: 500 })
   }
 }
+
 
 
 
