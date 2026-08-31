@@ -1,22 +1,7 @@
 import { NextResponse } from "next/server"
 import { randomBytes } from "crypto"
-import { readFileSync, writeFileSync, existsSync } from "fs"
-import { join } from "path"
 
-const DATA_FILE = join(process.cwd(), "data", "bookmarks.json")
-
-function load() {
-  if (!existsSync(DATA_FILE)) return { bookmarks: [] }
-  try {
-    return JSON.parse(readFileSync(DATA_FILE, "utf8"))
-  } catch {
-    return { bookmarks: [] }
-  }
-}
-
-function save(data: any) {
-  writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), "utf8")
-}
+const bookmarks: any[] = []
 
 export async function POST(req: Request) {
   try {
@@ -43,10 +28,7 @@ export async function POST(req: Request) {
       updatedAt: now
     }
     
-    const d = load()
-    d.bookmarks.push(bookmark)
-    save(d)
-    
+    bookmarks.push(bookmark)
     return NextResponse.json({ success: true, data: bookmark })
   } catch (e: any) {
     console.error("保存书签失败:", e)
@@ -56,9 +38,8 @@ export async function POST(req: Request) {
 
 export async function GET() {
   try {
-    const d = load()
-    const bookmarks = [...d.bookmarks].sort((a: any, b: any) => b.createdAt.localeCompare(a.createdAt))
-    return NextResponse.json({ success: true, data: bookmarks })
+    const sorted = [...bookmarks].sort((a: any, b: any) => b.createdAt.localeCompare(a.createdAt))
+    return NextResponse.json({ success: true, data: sorted })
   } catch (e: any) {
     return NextResponse.json({ success: false, error: e.message }, { status: 500 })
   }
@@ -73,9 +54,10 @@ export async function DELETE(req: Request) {
       return NextResponse.json({ success: false, error: "缺少ID参数" }, { status: 400 })
     }
     
-    const d = load()
-    d.bookmarks = d.bookmarks.filter((b: any) => b.id !== id)
-    save(d)
+    const idx = bookmarks.findIndex((b: any) => b.id === id)
+    if (idx !== -1) {
+      bookmarks.splice(idx, 1)
+    }
     
     return NextResponse.json({ success: true })
   } catch (e: any) {
