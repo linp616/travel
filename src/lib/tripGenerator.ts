@@ -8,7 +8,7 @@ export async function generateTrip(data: any) {
   
   const hotels = searchHotels(toCity, roomType, budget, days, adultCount + childCount)
   const transports = searchTransport(fromCity, toCity, budget, days, startDate)
-  const itineraryDays = buildItinerary(toCity, days, preferences, extraRequirements)
+  const itineraryDays = buildItinerary(toCity, days, preferences, extraRequirements, startDate)
   const xhsNotes = fetchXhsNotes(toCity, preferences, days)
   
   // 创建行程
@@ -143,7 +143,7 @@ function searchTransport(from: string, to: string, budget: number, days: number,
   }))
 }
 
-function buildItinerary(city: string, days: number, preferences: string[], extraRequirements: string) {
+function buildItinerary(city: string, days: number, preferences: string[], extraRequirements: string, startDate: string = "2025-01-01") {
   const attractionMap: Record<string, string[]> = {
     "文化": ["博物馆", "历史遗迹", "古城墙", "文化街"],
     "自然": ["国家森林公园", "风景区", "自然保护区", "地质公园"],
