@@ -2,7 +2,7 @@
 import { randomBytes } from "crypto"
 
 // 内存存储（兼容 Netlify/Cloudflare Pages）
-let tripData = { trips: [], hotels: [], transports: [], itineraryDays: [], xhsNotes: [] }
+let tripData: any = { trips: [], hotels: [], transports: [], itineraryDays: [], xhsNotes: [] }
 
 function getNow() {
   return new Date().toISOString()
