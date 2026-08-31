@@ -73,7 +73,7 @@ export async function POST(req: Request) {
     const itineraryDays = generateItineraryDays(toCity, days, preferences, extraRequirements, startDate)
     const xhsNotes = generateXhsNotes(toCity, preferences, days)
     const trip = { id, fromCity, toCity, startDate, days, adultCount, childCount, budget, preferences: JSON.stringify(preferences), roomType, extraRequirements, status: "generated", createdAt: now, updatedAt: now }
-    tripData.trips.push(trip)
+    tripData.trips.push(trip as any)
     tripData.hotels.push(...hotels.map((h: any) => ({ ...h, tripId: id, id: randomBytes(12).toString("hex"), createdAt: now })))
     tripData.transports.push(...transports.map((t: any) => ({ ...t, tripId: id, id: randomBytes(12).toString("hex"), createdAt: now })))
     tripData.itineraryDays.push(...itineraryDays.map((i: any) => ({ ...i, tripId: id, id: randomBytes(12).toString("hex"), createdAt: now })))
@@ -93,3 +93,4 @@ export async function GET() {
     return NextResponse.json({ success: false, error: e.message }, { status: 500 })
   }
 }
+
