@@ -45,6 +45,9 @@ export default function OverviewPage() {
   const params = useParams()
   const [trip, setTrip] = useState<Trip | null>(null)
   const [loading, setLoading] = useState(true)
+  const [showSaveModal, setShowSaveModal] = useState(false)
+  const [saving, setSaving] = useState(false)
+  const [saveSuccess, setSaveSuccess] = useState(false)
   const preferences = typeof trip?.preferences === 'string' ? JSON.parse(trip.preferences) : (trip?.preferences || [])
 
   useEffect(() => {
@@ -57,6 +60,37 @@ export default function OverviewPage() {
       .catch(() => router.push("/travel"))
       .finally(() => setLoading(false))
   }, [params.id, router])
+
+  const handleSave = async () => {
+    if (!trip) return
+    setSaving(true)
+    try {
+      const res = await fetch("/api/bookmarks", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          tripId: trip.id,
+          title: trip.toCity + " " + trip.days + "日游",
+          toCity: trip.toCity,
+          days: trip.days,
+          budget: trip.budget,
+          adultCount: trip.adultCount,
+          childCount: trip.childCount,
+          startDate: trip.startDate
+        })
+      })
+      const data = await res.json()
+      if (data.success) {
+        setSaveSuccess(true)
+        setShowSaveModal(true)
+        setTimeout(() => { setSaveSuccess(false); setShowSaveModal(false) }, 10000)
+      }
+    } catch (e) {
+      console.error("保存失败", e)
+    } finally {
+      setSaving(false)
+    }
+  }
 
   if (loading) return (
     <div className="min-h-screen bg-mostar-cream flex items-center justify-center">
@@ -147,11 +181,34 @@ export default function OverviewPage() {
         )}
 
         {/* Save to Bookmarks */}
-        <div className="text-center">
-          <Link href="/bookmarks" className="btn-cinematic inline-block px-12 py-4 text-lg">
-            查看书签
+        <div className="text-center space-y-4">
+          <button
+            onClick={handleSave}
+            disabled={saving}
+            className="btn-cinematic inline-block px-12 py-4 text-lg"
+          >
+            {saveSuccess ? "✓已保存到书签" : saving ? "保存中..." : "💾保存行程"}
+          </button>
+          <Link href="/bookmarks" className="inline-block text-mostar-stone hover:text-mostar-water transition-colors text-sm">
+            查看已保存的行程
           </Link>
         </div>
+
+        {/* 保存成功弹框 */}
+        {showSaveModal && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black/50" onClick={() => setShowSaveModal(false)}></div>
+            <div className="bg-white rounded-2xl p-10 max-w-sm w-full mx-4 shadow-2xl relative z-10 text-center">
+              <div className="text-5xl mb-4">✅</div>
+              <h3 className="text-xl font-display font-bold text-mostar-dark mb-2">行程已保存</h3>
+              <p className="text-mostar-stone text-sm mb-8">您的旅行规划已保存至书签页</p>
+              <div className="flex gap-4 justify-center">
+                <button onClick={() => setShowSaveModal(false)} className="px-8 py-3 bg-white border-2 border-mostar-stone/30 text-mostar-dark font-medium hover:bg-mostar-sand transition-all rounded-lg flex-1 text-center">继续浏览</button>
+                <button onClick={() => { setShowSaveModal(false); router.push("/bookmarks") }} className="px-8 py-3 bg-mostar-water text-white font-medium hover:bg-mostar-water/90 transition-all rounded-lg flex-1 text-center">去书签页</button>
+              </div>
+            </div>
+          </div>
+        )}
       </main>
     </div>
   )
