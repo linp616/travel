@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 
@@ -31,18 +31,18 @@ export default function BookmarkPage() {
 
   const handleDelete = async (id: string) => {
     if (!confirm("确定要删除这个书签吗？")) return
-    const res = await fetch("/api/bookmarks/" + id, { method: "DELETE" })
+    const res = await fetch("/api/bookmarks?id=" + id, { method: "DELETE" })
     if (res.ok) {
       setBookmarks(bookmarks.filter(b => b.id !== id))
     }
   }
 
   const handleView = (bookmark: Bookmark) => {
-    router.push("/bookmarks/view/" + bookmark.id)
+    router.push("/bookmarks/view/detail?id=" + bookmark.id)
   }
 
   const handleEdit = (bookmark: Bookmark) => {
-    router.push("/bookmarks/edit/" + bookmark.id)
+    router.push("/travel?editId=" + bookmark.id)
   }
 
   const totalPages: number = Math.ceil(bookmarks.length / itemsPerPage)
@@ -164,3 +164,6 @@ export default function BookmarkPage() {
 }
 
 // Trigger rebuild
+
+
+

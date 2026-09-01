@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 import { useState, useEffect } from "react"
 import { useRouter, useParams } from "next/navigation"
 import Link from "next/link"
@@ -16,7 +16,7 @@ export default function BookmarkViewPage() {
   const [dayPlans, setDayPlans] = useState<DayPlan[]>([])
   const [expandedDay, setExpandedDay] = useState<number | null>(1)
   useEffect(() => {
-    fetch(" /api/bookmarks/" + params.id).then(r => r.json()).then(data => {
+    fetch("/api/bookmarks").then(r => r.json()).then(data => {
       if (data.success && data.data) {
         const d = data.data.itineraryData || {}
         setTrip({ id: data.data.tripId, toCity: data.data.toCity, days: data.data.days, budget: data.data.budget, adultCount: data.data.adultCount, childCount: data.data.childCount, roomType: data.data.roomType || "舒适", fromCity: data.data.fromCity || "出发地", transports: data.data.transports || [], hotels: data.data.hotels || [] })
@@ -25,8 +25,8 @@ export default function BookmarkViewPage() {
         } else {
           
         }
-      } else router.push(" /bookmarks")
-    }).catch(() => router.push(" /bookmarks")).finally(() => setLoading(false))
+      } else router.push("/bookmarks")
+    }).catch(() => router.push("/bookmarks")).finally(() => setLoading(false))
   }, [params.id])
   if (loading) return <div className="min-h-screen bg-mostar-cream flex items-center justify-center"><div className="text-center"><div className="text-4xl mb-4">★⭐</div><p className="text-mostar-stone">正在加载行程...</p></div></div>
   if (!trip) return null
@@ -95,3 +95,5 @@ function DayCard({ day, expanded, onToggle }: { day: DayPlan; expanded: boolean;
     </div>
   )
 }
+
+
