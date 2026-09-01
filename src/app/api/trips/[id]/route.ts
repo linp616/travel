@@ -1,5 +1,15 @@
 import { NextResponse } from "next/server"
-import { tripData } from "../store"
+import { readFileSync, existsSync } from "fs"
+import { join } from "path"
+
+const TRIPS_FILE = join(process.cwd(), "data", "trips.json")
+
+function loadTrips(): any {
+  if (!existsSync(TRIPS_FILE)) return { trips: [], hotels: [], transports: [], itineraryDays: [], xhsNotes: [] }
+  try { return JSON.parse(readFileSync(TRIPS_FILE, "utf8")) } catch { return { trips: [], hotels: [], transports: [], itineraryDays: [], xhsNotes: [] } }
+}
+
+let tripData: any = loadTrips()
 
 export async function GET(req: Request, { params }: { params: { id: string } }) {
   try {

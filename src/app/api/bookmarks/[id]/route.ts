@@ -1,4 +1,4 @@
-﻿import { NextResponse } from "next/server"
+import { NextResponse } from "next/server"
 import { bookmarks } from "../store"
 
 export async function GET(request: Request, { params }: { params: Promise<{ id: string }> }) {

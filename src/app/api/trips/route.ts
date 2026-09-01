@@ -1,12 +1,37 @@
-﻿import { NextResponse } from "next/server"
+import { NextResponse } from "next/server"
 import { randomBytes } from "crypto"
-import { tripData } from "./store"
+import { readFileSync, existsSync, writeFileSync } from "fs"
+import { join } from "path"
+
+const TRIPS_FILE = join(process.cwd(), "data", "trips.json")
+const HOTELS_FILE = join(process.cwd(), "data", "酒店数据", "城市酒店数据.json")
 
 function getNow() {
   return new Date().toISOString()
 }
 
+function loadTrips() {
+  if (!existsSync(TRIPS_FILE)) return { trips: [], hotels: [], transports: [], itineraryDays: [], xhsNotes: [] }
+  try { return JSON.parse(readFileSync(TRIPS_FILE, "utf8")) } catch { return { trips: [], hotels: [], transports: [], itineraryDays: [], xhsNotes: [] } }
+}
+
+function saveTrips(data: any) {
+  writeFileSync(TRIPS_FILE, JSON.stringify(data, null, 2), "utf8")
+}
+
+function loadHotelData() {
+  if (!existsSync(HOTELS_FILE)) return {}
+  try { return JSON.parse(readFileSync(HOTELS_FILE, "utf8")) } catch { return {} }
+}
+
+let tripData = loadTrips()
+
 function generateHotels(city: string, roomType: string, budget: number, days: number, guests: number) {
+  const hotelData = loadHotelData()
+  const cityHotels = hotelData[city] || []
+  if (cityHotels.length > 0) {
+    return cityHotels.map((h: any) => ({ ...h, tripId: "", id: randomBytes(12).toString("hex"), createdAt: getNow() }))
+  }
   const priceMap: Record<string, number> = { "经济": 150, "舒适": 300, "品质": 500, "豪华": 800 }
   const basePrice = priceMap[roomType] || 300
   return [
@@ -76,6 +101,7 @@ export async function POST(req: Request) {
     tripData.transports.push(...transports.map((t: any) => ({ ...t, tripId: id, id: randomBytes(12).toString("hex"), createdAt: now })))
     tripData.itineraryDays.push(...itineraryDays.map((i: any) => ({ ...i, tripId: id, id: randomBytes(12).toString("hex"), createdAt: now })))
     tripData.xhsNotes.push(...xhsNotes.map((n: any) => ({ ...n, tripId: id, id: randomBytes(12).toString("hex"), createdAt: now })))
+    saveTrips(tripData)
     return NextResponse.json({ success: true, data: { trip, hotels, transports, itineraryDays, xhsNotes } })
   } catch (e: any) {
     console.error("ERROR:", e.message)

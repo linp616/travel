@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 import { useState, useEffect } from "react"
 import { useRouter, useParams } from "next/navigation"
 import Link from "next/link"
@@ -16,10 +16,10 @@ export default function BookmarkViewPage() {
   const [dayPlans, setDayPlans] = useState<DayPlan[]>([])
   const [expandedDay, setExpandedDay] = useState<number | null>(1)
   useEffect(() => {
-    fetch("/api/bookmarks").then(r => r.json()).then(data => {
+    fetch("/api/bookmarks?id=" + params.id).then(r => r.json()).then(data => {
       if (data.success && data.data) {
-        const d = data.data.itineraryData || {}
-        setTrip({ id: data.data.tripId, toCity: data.data.toCity, days: data.data.days, budget: data.data.budget, adultCount: data.data.adultCount, childCount: data.data.childCount, roomType: data.data.roomType || "舒适", fromCity: data.data.fromCity || "出发地", transports: data.data.transports || [], hotels: data.data.hotels || [] })
+        const bm = data.data; if(!bm)return; const d = bm.itineraryData || {}
+        setTrip({ id: bm.tripId, toCity: bm.toCity, days: bm.days, budget: bm.budget, adultCount: bm.adultCount, childCount: bm.childCount, roomType: bm.roomType || "舒适", fromCity: bm.fromCity || "出发地", transports: bm.transports || [], hotels: bm.hotels || [] })
         if (d.dayPlans && d.dayPlans.length > 0) {
           setDayPlans(d.dayPlans)
         } else {
@@ -81,11 +81,11 @@ function DayCard({ day, expanded, onToggle }: { day: DayPlan; expanded: boolean;
           <span className="w-8 h-8 rounded-full bg-mostar-water text-white flex items-center justify-center text-sm font-bold">{day.dayIndex}</span>
           <div><h3 className="font-bold text-mostar-dark">{day.title}</h3><p className="text-sm text-mostar-stone">{day.date}</p></div>
         </div>
-        <div className="text-right"><span className="text-mostar-water font-bold">¥{day.totalCost}</span><span className="text-mostar-stone/60 ml-2">{expanded} ? "▼" : "▶"</span></div>
+        <div className="text-right"><span className="text-mostar-water font-bold">¥{day.totalCost}</span><span className="text-mostar-stone/60 ml-2">{expanded ? "▼" : "▶"}</span></div>
       </button>
       {expanded && <div className="px-4 pb-4 border-t border-mostar-sand/20">
         <div className="py-3"><h4 className="font-medium text-mostar-dark mb-3">📍 游玩景点</h4>
-          {(day.activities || day.attractions || []).length > 0 ? (day.activities || day.attractions).map((attr: any, i: number) => <div key={i} className="flex items-start gap-3 py-2 border-b border-mostar-sand/20 last:border-0"><span className="text-mostar-water font-bold w-6">{i + 1}</span><div className="flex-1"><div className="flex justify-between"><span className="font-medium text-mostar-dark">{attr.name}</span><span className="text-mostar-warm font-bold">{attr.ticketPrice} !== null ? "¥"+ : "票价信息暂缺"</span></div><p className="text-sm text-mostar-stone">{attr.category} · {attr.location}</p></div></div>) : <p className="text-sm text-mostar-stone/60 italic">暂未找到该地景点</p>}
+          {(day.activities || day.attractions || []).length > 0 ? (day.activities || day.attractions).map((attr: any, i: number) => <div key={i} className="flex items-start gap-3 py-2 border-b border-mostar-sand/20 last:border-0"><span className="text-mostar-water font-bold w-6">{i + 1}</span><div className="flex-1"><div className="flex justify-between"><span className="font-medium text-mostar-dark">{attr.name}</span><span className="text-mostar-warm font-bold">{attr.ticketPrice !== null ? `¥` + attr.ticketPrice + `` : "票价信息暂缺"}</span></div><p className="text-sm text-mostar-stone">{attr.category} · {attr.location}</p></div></div>) : <p className="text-sm text-mostar-stone/60 italic">暂未找到该地景点</p>}
         </div>
         <div className="py-3 border-t border-mostar-sand/20"><h4 className="font-medium text-mostar-dark mb-3">🍽️ 美食推荐</h4>
           {day.meals.map((meal, i) => <div key={i} className="flex items-start gap-3 py-2"><span className="text-mostar-stone/60 w-16">{meal.type}</span><div className="flex-1"><span className="font-medium text-mostar-dark">{meal.restaurant}</span><span className="text-sm text-mostar-stone ml-2">{meal.recommendation}</span><span className="text-sm text-mostar-warm ml-2">¥{meal.cost}/人</span></div></div>)}

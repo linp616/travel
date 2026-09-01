@@ -1,1 +1,52 @@
-﻿{}
+{
+  "三亚": [
+    {"name": "三亚亚特兰蒂斯酒店", "price": 2800, "rating": 4.8, "address": "海棠区海棠湾", "source": "携程", "tag": "豪华型"},
+    {"name": "三亚丽思卡尔顿酒店", "price": 1800, "rating": 4.7, "address": "吉阳区海棠湾", "source": "携程", "tag": "豪华型"},
+    {"name": "三亚半山半岛洲际酒店", "price": 1200, "rating": 4.5, "address": "吉阳区鹿回头", "source": "去哪儿", "tag": "品质型"},
+    {"name": "三亚海棠湾万达嘉华酒店", "price": 800, "rating": 4.3, "address": "海棠区海棠湾", "source": "美团", "tag": "舒适型"},
+    {"name": "三亚三亚湾红树林度假酒店", "price": 500, "rating": 4.2, "address": "天涯区三亚湾", "source": "携程", "tag": "经济型"},
+    {"name": "三亚阳光酒店", "price": 300, "rating": 4.0, "address": "吉阳区榆亚路", "source": "去哪儿", "tag": "经济型"}
+  ],
+  "北京": [
+    {"name": "北京故宫角楼酒店", "price": 2500, "rating": 4.9, "address": "东城区五四大街", "source": "携程", "tag": "豪华型"},
+    {"name": "北京王府井希尔顿酒店", "price": 1500, "rating": 4.6, "address": "东城区王府井", "source": "希尔顿", "tag": "豪华型"},
+    {"name": "北京国贸大酒店", "price": 1200, "rating": 4.5, "address": "朝阳区建国门外大街", "source": "携程", "tag": "品质型"},
+    {"name": "北京王府井希尔顿欢朋酒店", "price": 600, "rating": 4.3, "address": "东城区王府井", "source": "美团", "tag": "舒适型"},
+    {"name": "北京前门建国饭店", "price": 400, "rating": 4.1, "address": "西城区前门", "source": "携程", "tag": "经济型"}
+  ],
+  "上海": [
+    {"name": "上海外滩华尔道夫酒店", "price": 3200, "rating": 4.9, "address": "黄浦区中山东一路", "source": "携程", "tag": "豪华型"},
+    {"name": "上海浦项洲际酒店", "price": 1800, "rating": 4.7, "address": "黄浦区南京东路", "source": "洲际", "tag": "豪华型"},
+    {"name": "上海静安希尔顿酒店", "price": 1200, "rating": 4.5, "address": "静安区华山路", "source": "携程", "tag": "品质型"},
+    {"name": "上海迪士尼乐园酒店", "price": 1500, "rating": 4.6, "address": "浦东新区川沙", "source": "迪士尼", "tag": "主题型"},
+    {"name": "上海外滩茂悦大酒店", "price": 900, "rating": 4.4, "address": "黄浦区九江路", "source": "美团", "tag": "舒适型"}
+  ],
+  "成都": [
+    {"name": "成都博舍酒店", "price": 2000, "rating": 4.8, "address": "锦江区太古里", "source": "携程", "tag": "豪华型"},
+    {"name": "成都尼依格酒店", "price": 1500, "rating": 4.7, "address": "锦江区春熙路", "source": "尼依格", "tag": "豪华型"},
+    {"name": "成都世纪城天堂洲际大饭店", "price": 800, "rating": 4.4, "address": "武侯区世纪城", "source": "携程", "tag": "品质型"},
+    {"name": "成都香隆丽君将酒店", "price": 500, "rating": 4.2, "address": "锦江区红星路", "source": "美团", "tag": "舒适型"}
+  ],
+  "杭州": [
+    {"name": "杭州西子湖四季酒店", "price": 3500, "rating": 4.9, "address": "西湖区灵隐路", "source": "携程", "tag": "豪华型"},
+    {"name": "杭州西湖国宾馆", "price": 2000, "rating": 4.8, "address": "西湖区杨公堤", "source": "绿城", "tag": "豪华型"},
+    {"name": "杭州君悦酒店", "price": 1000, "rating": 4.5, "address": "上城区庆春路", "source": "凯悦", "tag": "品质型"},
+    {"name": "杭州西湖宾苑酒店", "price": 600, "rating": 4.3, "address": "西湖区北山路", "source": "携程", "tag": "舒适型"}
+  ],
+  "西安": [
+    {"name": "西安索菲特传奇酒店", "price": 1800, "rating": 4.7, "address": "雁塔区大雁塔", "source": "雅高", "tag": "豪华型"},
+    {"name": "西安威斯汀大酒店", "price": 1200, "rating": 4.5, "address": "雁塔区小寨", "source": "万豪", "tag": "品质型"},
+    {"name": "西安建国饭店", "price": 600, "rating": 4.2, "address": "碑林区南大街", "source": "携程", "tag": "舒适型"}
+  ],
+  "厦门": [
+    {"name": "厦门康莱德酒店", "price": 1800, "rating": 4.7, "address": "思明区鹭江道", "source": "希尔顿", "tag": "豪华型"},
+    {"name": "厦门七尚酒店", "price": 1500, "rating": 4.6, "address": "思明区环岛路", "source": "携程", "tag": "豪华型"},
+    {"name": "厦门海悦山庄酒店", "price": 800, "rating": 4.4, "address": "思明区台双南路", "source": "携程", "tag": "品质型"},
+    {"name": "厦门鼓浪屿安科别墅酒店", "price": 600, "rating": 4.3, "address": "鼓浪屿", "source": "美团", "tag": "舒适型"}
+  ],
+  "丽江": [
+    {"name": "丽江文澜山房", "price": 1200, "rating": 4.7, "address": "古城区束河古镇", "source": "携程", "tag": "豪华型"},
+    {"name": "丽江金茂凯悦臻选酒店", "price": 900, "rating": 4.5, "address": "古城区玉河古镇", "source": "凯悦", "tag": "品质型"},
+    {"name": "丽江古城英迪格酒店", "price": 700, "rating": 4.4, "address": "古城区大研古镇", "source": "洲际", "tag": "舒适型"}
+  ]
+}

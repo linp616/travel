@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 
@@ -42,7 +42,7 @@ export default function BookmarkPage() {
   }
 
   const handleEdit = (bookmark: Bookmark) => {
-    router.push("/travel?editId=" + bookmark.id)
+    router.push("/bookmarks/edit/" + bookmark.id)
   }
 
   const totalPages: number = Math.ceil(bookmarks.length / itemsPerPage)

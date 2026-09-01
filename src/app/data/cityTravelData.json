@@ -1,426 +1,426 @@
 {
-  "����": {
+  "三亚": {
     "attractions": [
       {
-        "name": "��������",
+        "name": "三亚海滨",
         "ticket": 0,
-        "duration": "3Сʱ",
-        "location": "����",
-        "commuteTime": "15����",
-        "address": "��������·"
+        "duration": "3小时",
+        "location": "海边",
+        "commuteTime": "15分钟",
+        "address": "三亚滨海路"
       },
       {
-        "name": "��������",
+        "name": "三亚古镇",
         "ticket": 50,
-        "duration": "2Сʱ",
-        "location": "�ų�",
-        "commuteTime": "20����",
-        "address": "�����ųǾ���"
+        "duration": "2小时",
+        "location": "古城",
+        "commuteTime": "20分钟",
+        "address": "三亚古城景区"
       },
       {
-        "name": "���������",
+        "name": "三亚博物馆",
         "ticket": 0,
-        "duration": "1.5Сʱ",
-        "location": "������",
-        "commuteTime": "10����",
-        "address": "�����Ļ���"
+        "duration": "1.5小时",
+        "location": "市中心",
+        "commuteTime": "10分钟",
+        "address": "三亚文化街"
       }
     ],
     "foods": [
       {
-        "name": "��ɫС��",
+        "name": "特色小吃",
         "cost": 30,
-        "recommendation": "���رس�",
-        "location": "С�Խ�"
+        "recommendation": "本地必吃",
+        "location": "小吃街"
       },
       {
-        "name": "���ʴ��",
+        "name": "海鲜大餐",
         "cost": 120,
-        "recommendation": "������ζ",
-        "location": "�����г�"
+        "recommendation": "新鲜美味",
+        "location": "海鲜市场"
       },
       {
-        "name": "��ͳ����",
+        "name": "传统餐厅",
         "cost": 80,
-        "recommendation": "�ص���ζ",
-        "location": "�ϳ���"
+        "recommendation": "地道口味",
+        "location": "老城区"
       }
     ],
     "tips": [
-      "��ǰԤ���Ƶ�",
-      "�ܿ��ڼ��ճ���",
-      "�����ʵ�Ь��"
+      "提前预订酒店",
+      "避开节假日出行",
+      "穿舒适的鞋子"
     ]
   },
-  "�Ϻ�": {
+  "北京": {
     "attractions": [
       {
-        "name": "�Ϻ�����",
+        "name": "北京海滨",
         "ticket": 0,
-        "duration": "3Сʱ",
-        "location": "����",
-        "commuteTime": "15����",
-        "address": "�Ϻ�����·"
+        "duration": "3小时",
+        "location": "海边",
+        "commuteTime": "15分钟",
+        "address": "北京滨海路"
       },
       {
-        "name": "�Ϻ�����",
+        "name": "北京古镇",
         "ticket": 50,
-        "duration": "2Сʱ",
-        "location": "�ų�",
-        "commuteTime": "20����",
-        "address": "�Ϻ��ųǾ���"
+        "duration": "2小时",
+        "location": "古城",
+        "commuteTime": "20分钟",
+        "address": "北京古城景区"
       },
       {
-        "name": "�Ϻ������",
+        "name": "北京博物馆",
         "ticket": 0,
-        "duration": "1.5Сʱ",
-        "location": "������",
-        "commuteTime": "10����",
-        "address": "�Ϻ��Ļ���"
+        "duration": "1.5小时",
+        "location": "市中心",
+        "commuteTime": "10分钟",
+        "address": "北京文化街"
       }
     ],
     "foods": [
       {
-        "name": "��ɫС��",
+        "name": "特色小吃",
         "cost": 30,
-        "recommendation": "���رس�",
-        "location": "С�Խ�"
+        "recommendation": "本地必吃",
+        "location": "小吃街"
       },
       {
-        "name": "���ʴ��",
+        "name": "海鲜大餐",
         "cost": 120,
-        "recommendation": "������ζ",
-        "location": "�����г�"
+        "recommendation": "新鲜美味",
+        "location": "海鲜市场"
       },
       {
-        "name": "��ͳ����",
+        "name": "传统餐厅",
         "cost": 80,
-        "recommendation": "�ص���ζ",
-        "location": "�ϳ���"
+        "recommendation": "地道口味",
+        "location": "老城区"
       }
     ],
     "tips": [
-      "��ǰԤ���Ƶ�",
-      "�ܿ��ڼ��ճ���",
-      "�����ʵ�Ь��"
+      "提前预订酒店",
+      "避开节假日出行",
+      "穿舒适的鞋子"
     ]
   },
-  "�Ͼ�": {
+  "上海": {
     "attractions": [
       {
-        "name": "�Ͼ�����",
+        "name": "上海海滨",
         "ticket": 0,
-        "duration": "3Сʱ",
-        "location": "����",
-        "commuteTime": "15����",
-        "address": "�Ͼ�����·"
+        "duration": "3小时",
+        "location": "海边",
+        "commuteTime": "15分钟",
+        "address": "上海滨海路"
       },
       {
-        "name": "�Ͼ�����",
+        "name": "上海古镇",
         "ticket": 50,
-        "duration": "2Сʱ",
-        "location": "�ų�",
-        "commuteTime": "20����",
-        "address": "�Ͼ��ųǾ���"
+        "duration": "2小时",
+        "location": "古城",
+        "commuteTime": "20分钟",
+        "address": "上海古城景区"
       },
       {
-        "name": "�Ͼ������",
+        "name": "上海博物馆",
         "ticket": 0,
-        "duration": "1.5Сʱ",
-        "location": "������",
-        "commuteTime": "10����",
-        "address": "�Ͼ��Ļ���"
+        "duration": "1.5小时",
+        "location": "市中心",
+        "commuteTime": "10分钟",
+        "address": "上海文化街"
       }
     ],
     "foods": [
       {
-        "name": "��ɫС��",
+        "name": "特色小吃",
         "cost": 30,
-        "recommendation": "���رس�",
-        "location": "С�Խ�"
+        "recommendation": "本地必吃",
+        "location": "小吃街"
       },
       {
-        "name": "���ʴ��",
+        "name": "海鲜大餐",
         "cost": 120,
-        "recommendation": "������ζ",
-        "location": "�����г�"
+        "recommendation": "新鲜美味",
+        "location": "海鲜市场"
       },
       {
-        "name": "��ͳ����",
+        "name": "传统餐厅",
         "cost": 80,
-        "recommendation": "�ص���ζ",
-        "location": "�ϳ���"
+        "recommendation": "地道口味",
+        "location": "老城区"
       }
     ],
     "tips": [
-      "��ǰԤ���Ƶ�",
-      "�ܿ��ڼ��ճ���",
-      "�����ʵ�Ь��"
+      "提前预订酒店",
+      "避开节假日出行",
+      "穿舒适的鞋子"
     ]
   },
-  "�żҽ�": {
+  "成都": {
     "attractions": [
       {
-        "name": "�żҽ�����",
+        "name": "成都海滨",
         "ticket": 0,
-        "duration": "3Сʱ",
-        "location": "����",
-        "commuteTime": "15����",
-        "address": "�żҽ�����·"
+        "duration": "3小时",
+        "location": "海边",
+        "commuteTime": "15分钟",
+        "address": "成都滨海路"
       },
       {
-        "name": "�żҽ�����",
+        "name": "成都古镇",
         "ticket": 50,
-        "duration": "2Сʱ",
-        "location": "�ų�",
-        "commuteTime": "20����",
-        "address": "�żҽ��ųǾ���"
+        "duration": "2小时",
+        "location": "古城",
+        "commuteTime": "20分钟",
+        "address": "成都古城景区"
       },
       {
-        "name": "�żҽ������",
+        "name": "成都博物馆",
         "ticket": 0,
-        "duration": "1.5Сʱ",
-        "location": "������",
-        "commuteTime": "10����",
-        "address": "�żҽ��Ļ���"
+        "duration": "1.5小时",
+        "location": "市中心",
+        "commuteTime": "10分钟",
+        "address": "成都文化街"
       }
     ],
     "foods": [
       {
-        "name": "��ɫС��",
+        "name": "特色小吃",
         "cost": 30,
-        "recommendation": "���رس�",
-        "location": "С�Խ�"
+        "recommendation": "本地必吃",
+        "location": "小吃街"
       },
       {
-        "name": "���ʴ��",
+        "name": "海鲜大餐",
         "cost": 120,
-        "recommendation": "������ζ",
-        "location": "�����г�"
+        "recommendation": "新鲜美味",
+        "location": "海鲜市场"
       },
       {
-        "name": "��ͳ����",
+        "name": "传统餐厅",
         "cost": 80,
-        "recommendation": "�ص���ζ",
-        "location": "�ϳ���"
+        "recommendation": "地道口味",
+        "location": "老城区"
       }
     ],
     "tips": [
-      "��ǰԤ���Ƶ�",
-      "�ܿ��ڼ��ճ���",
-      "�����ʵ�Ь��"
+      "提前预订酒店",
+      "避开节假日出行",
+      "穿舒适的鞋子"
     ]
   },
-  "�ɶ�": {
+  "杭州": {
     "attractions": [
       {
-        "name": "�ɶ�����",
+        "name": "杭州海滨",
         "ticket": 0,
-        "duration": "3Сʱ",
-        "location": "����",
-        "commuteTime": "15����",
-        "address": "�ɶ�����·"
+        "duration": "3小时",
+        "location": "海边",
+        "commuteTime": "15分钟",
+        "address": "杭州滨海路"
       },
       {
-        "name": "�ɶ�����",
+        "name": "杭州古镇",
         "ticket": 50,
-        "duration": "2Сʱ",
-        "location": "�ų�",
-        "commuteTime": "20����",
-        "address": "�ɶ��ųǾ���"
+        "duration": "2小时",
+        "location": "古城",
+        "commuteTime": "20分钟",
+        "address": "杭州古城景区"
       },
       {
-        "name": "�ɶ������",
+        "name": "杭州博物馆",
         "ticket": 0,
-        "duration": "1.5Сʱ",
-        "location": "������",
-        "commuteTime": "10����",
-        "address": "�ɶ��Ļ���"
+        "duration": "1.5小时",
+        "location": "市中心",
+        "commuteTime": "10分钟",
+        "address": "杭州文化街"
       }
     ],
     "foods": [
       {
-        "name": "��ɫС��",
+        "name": "特色小吃",
         "cost": 30,
-        "recommendation": "���رس�",
-        "location": "С�Խ�"
+        "recommendation": "本地必吃",
+        "location": "小吃街"
       },
       {
-        "name": "���ʴ��",
+        "name": "海鲜大餐",
         "cost": 120,
-        "recommendation": "������ζ",
-        "location": "�����г�"
+        "recommendation": "新鲜美味",
+        "location": "海鲜市场"
       },
       {
-        "name": "��ͳ����",
+        "name": "传统餐厅",
         "cost": 80,
-        "recommendation": "�ص���ζ",
-        "location": "�ϳ���"
+        "recommendation": "地道口味",
+        "location": "老城区"
       }
     ],
     "tips": [
-      "��ǰԤ���Ƶ�",
-      "�ܿ��ڼ��ճ���",
-      "�����ʵ�Ь��"
+      "提前预订酒店",
+      "避开节假日出行",
+      "穿舒适的鞋子"
     ]
   },
-  "�人": {
+  "西安": {
     "attractions": [
       {
-        "name": "�人����",
+        "name": "西安海滨",
         "ticket": 0,
-        "duration": "3Сʱ",
-        "location": "����",
-        "commuteTime": "15����",
-        "address": "�人����·"
+        "duration": "3小时",
+        "location": "海边",
+        "commuteTime": "15分钟",
+        "address": "西安滨海路"
       },
       {
-        "name": "�人����",
+        "name": "西安古镇",
         "ticket": 50,
-        "duration": "2Сʱ",
-        "location": "�ų�",
-        "commuteTime": "20����",
-        "address": "�人�ųǾ���"
+        "duration": "2小时",
+        "location": "古城",
+        "commuteTime": "20分钟",
+        "address": "西安古城景区"
       },
       {
-        "name": "�人�����",
+        "name": "西安博物馆",
         "ticket": 0,
-        "duration": "1.5Сʱ",
-        "location": "������",
-        "commuteTime": "10����",
-        "address": "�人�Ļ���"
+        "duration": "1.5小时",
+        "location": "市中心",
+        "commuteTime": "10分钟",
+        "address": "西安文化街"
       }
     ],
     "foods": [
       {
-        "name": "��ɫС��",
+        "name": "特色小吃",
         "cost": 30,
-        "recommendation": "���رس�",
-        "location": "С�Խ�"
+        "recommendation": "本地必吃",
+        "location": "小吃街"
       },
       {
-        "name": "���ʴ��",
+        "name": "海鲜大餐",
         "cost": 120,
-        "recommendation": "������ζ",
-        "location": "�����г�"
+        "recommendation": "新鲜美味",
+        "location": "海鲜市场"
       },
       {
-        "name": "��ͳ����",
+        "name": "传统餐厅",
         "cost": 80,
-        "recommendation": "�ص���ζ",
-        "location": "�ϳ���"
+        "recommendation": "地道口味",
+        "location": "老城区"
       }
     ],
     "tips": [
-      "��ǰԤ���Ƶ�",
-      "�ܿ��ڼ��ճ���",
-      "�����ʵ�Ь��"
+      "提前预订酒店",
+      "避开节假日出行",
+      "穿舒适的鞋子"
     ]
   },
-  "�ൺ": {
+  "厦门": {
     "attractions": [
       {
-        "name": "�ൺ����",
+        "name": "厦门海滨",
         "ticket": 0,
-        "duration": "3Сʱ",
-        "location": "����",
-        "commuteTime": "15����",
-        "address": "�ൺ����·"
+        "duration": "3小时",
+        "location": "海边",
+        "commuteTime": "15分钟",
+        "address": "厦门滨海路"
       },
       {
-        "name": "�ൺ����",
+        "name": "厦门古镇",
         "ticket": 50,
-        "duration": "2Сʱ",
-        "location": "�ų�",
-        "commuteTime": "20����",
-        "address": "�ൺ�ųǾ���"
+        "duration": "2小时",
+        "location": "古城",
+        "commuteTime": "20分钟",
+        "address": "厦门古城景区"
       },
       {
-        "name": "�ൺ�����",
+        "name": "厦门博物馆",
         "ticket": 0,
-        "duration": "1.5Сʱ",
-        "location": "������",
-        "commuteTime": "10����",
-        "address": "�ൺ�Ļ���"
+        "duration": "1.5小时",
+        "location": "市中心",
+        "commuteTime": "10分钟",
+        "address": "厦门文化街"
       }
     ],
     "foods": [
       {
-        "name": "��ɫС��",
+        "name": "特色小吃",
         "cost": 30,
-        "recommendation": "���رس�",
-        "location": "С�Խ�"
+        "recommendation": "本地必吃",
+        "location": "小吃街"
       },
       {
-        "name": "���ʴ��",
+        "name": "海鲜大餐",
         "cost": 120,
-        "recommendation": "������ζ",
-        "location": "�����г�"
+        "recommendation": "新鲜美味",
+        "location": "海鲜市场"
       },
       {
-        "name": "��ͳ����",
+        "name": "传统餐厅",
         "cost": 80,
-        "recommendation": "�ص���ζ",
-        "location": "�ϳ���"
+        "recommendation": "地道口味",
+        "location": "老城区"
       }
     ],
     "tips": [
-      "��ǰԤ���Ƶ�",
-      "�ܿ��ڼ��ճ���",
-      "�����ʵ�Ь��"
+      "提前预订酒店",
+      "避开节假日出行",
+      "穿舒适的鞋子"
     ]
   },
-  "��ɽ": {
+  "丽江": {
     "attractions": [
       {
-        "name": "��ɽ����",
+        "name": "丽江海滨",
         "ticket": 0,
-        "duration": "3Сʱ",
-        "location": "����",
-        "commuteTime": "15����",
-        "address": "��ɽ����·"
+        "duration": "3小时",
+        "location": "海边",
+        "commuteTime": "15分钟",
+        "address": "丽江滨海路"
       },
       {
-        "name": "��ɽ����",
+        "name": "丽江古镇",
         "ticket": 50,
-        "duration": "2Сʱ",
-        "location": "�ų�",
-        "commuteTime": "20����",
-        "address": "��ɽ�ųǾ���"
+        "duration": "2小时",
+        "location": "古城",
+        "commuteTime": "20分钟",
+        "address": "丽江古城景区"
       },
       {
-        "name": "��ɽ�����",
+        "name": "丽江博物馆",
         "ticket": 0,
-        "duration": "1.5Сʱ",
-        "location": "������",
-        "commuteTime": "10����",
-        "address": "��ɽ�Ļ���"
+        "duration": "1.5小时",
+        "location": "市中心",
+        "commuteTime": "10分钟",
+        "address": "丽江文化街"
       }
     ],
     "foods": [
       {
-        "name": "��ɫС��",
+        "name": "特色小吃",
         "cost": 30,
-        "recommendation": "���رس�",
-        "location": "С�Խ�"
+        "recommendation": "本地必吃",
+        "location": "小吃街"
       },
       {
-        "name": "���ʴ��",
+        "name": "海鲜大餐",
         "cost": 120,
-        "recommendation": "������ζ",
-        "location": "�����г�"
+        "recommendation": "新鲜美味",
+        "location": "海鲜市场"
       },
       {
-        "name": "��ͳ����",
+        "name": "传统餐厅",
         "cost": 80,
-        "recommendation": "�ص���ζ",
-        "location": "�ϳ���"
+        "recommendation": "地道口味",
+        "location": "老城区"
       }
     ],
     "tips": [
-      "��ǰԤ���Ƶ�",
-      "�ܿ��ڼ��ճ���",
-      "�����ʵ�Ь��"
+      "提前预订酒店",
+      "避开节假日出行",
+      "穿舒适的鞋子"
     ]
   }
 }
