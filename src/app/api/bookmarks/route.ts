@@ -1,7 +1,6 @@
-import { NextResponse } from "next/server"
+﻿import { NextResponse } from "next/server"
 import { randomBytes } from "crypto"
-
-const bookmarks: any[] = []
+import { bookmarks } from "./store"
 
 export async function POST(req: Request) {
   try {
@@ -36,8 +35,17 @@ export async function POST(req: Request) {
   }
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
+    const url = new URL(request.url)
+    const id = url.searchParams.get("id")
+    
+    if (id) {
+      const bookmark = bookmarks.find((b: any) => b.id === id)
+      if (!bookmark) return NextResponse.json({ success: false, error: "Bookmark not found" }, { status: 404 })
+      return NextResponse.json({ success: true, data: bookmark })
+    }
+    
     const sorted = [...bookmarks].sort((a: any, b: any) => b.createdAt.localeCompare(a.createdAt))
     return NextResponse.json({ success: true, data: sorted })
   } catch (e: any) {

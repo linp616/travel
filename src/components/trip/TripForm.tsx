@@ -78,7 +78,7 @@ export default function TripForm({ initialData, onTripGenerated, onCityChange }:
       })
       const data = await res.json()
       if (data.success && data.data?.trip?.id) {
-        router.push("/travel/result/" + data.data.trip.id)
+        window.location.href = "/travel/result/" + data.data.trip.id
       } else {
         alert("生成行程失败，请重试")
       }
@@ -274,3 +274,7 @@ export default function TripForm({ initialData, onTripGenerated, onCityChange }:
     </form>
   )
 }
+
+
+
+
